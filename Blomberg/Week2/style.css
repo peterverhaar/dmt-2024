@@ -1,0 +1,14 @@
+body {
+
+	Background-color: #ffcc7e }
+
+body { margin-left: 10%; margin-right: 10%; font-family: Ariel; font-size: 30 }
+
+/* new links */
+a { color: #003366; text-decoration: none; }
+
+/* visisted links */
+a:visisted { color: #660066; text-decoration: none; }
+
+/* mouse-over */
+a: hover {color: none; text-decoration: underline; }
