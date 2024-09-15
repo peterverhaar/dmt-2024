@@ -1,0 +1,45 @@
+
+
+body {
+
+
+	background-color: #634B66;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 30px;
+
+}
+
+
+h1 {
+	color: #260313;
+
+}
+
+p.header {
+	color:#E8EDED;
+	font-family: Helvetica, sans-serif;
+
+}
+
+p {
+	color: #E8EDED;
+	font-family: Georgia, serif;
+
+}
+
+
+a { color: #003366; text-decoration: none;
+}
+
+
+a:visited { color: #660066; text-decoration: none;
+}
+
+
+a:hover { color: black; text-decoration: underline;
+}
+
+a:active { color: black ; text-decoration: underline ;
+}
+
