@@ -1,0 +1,40 @@
+p { 
+	font-family: Arial; 
+	font-size: 17px;
+	color: #ffffff;
+	text-align: justify; font family
+}
+
+body {
+	background: linear-gradient(90deg, rgba(11, 77, 180, 1) 0%, rgba(0, 95, 106, 1) 37%, rgba(0, 95, 106, 1) 74%, rgba(11, 77, 180, 1) 100%);
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+h2 {
+	font-family: Times New Roman;
+	font-size: 47px;
+	color: #ffffff;
+	text-align: center;
+}
+
+ul {
+	font-size: 18px;
+	color: #ffffff;
+	font-family: Arial;
+}
+
+td {
+	font-size: 18px;
+	color: #ffffff;
+	font-family: Arial;
+}
+
+a { color: #f7bea6; text-decoration: none; }
+
+a:visited { color: #85ced6; text-decoration: none; }
+
+a:hover { color: white; text-decoration: underline; }
+
+a:active { color: black ; text-decoration: underline ; }
