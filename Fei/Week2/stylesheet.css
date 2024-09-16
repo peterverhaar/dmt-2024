@@ -1,0 +1,10 @@
+ h1{font-family:inherit;text-align:center;font-size:70px;color:#10669d}
+ p { font-family: Arial;font-size:22px;color:#02629e}
+ ul{font-size:22px;color:#02629e}
+ table{font-size:20px;border:5px;color:#02629e;border-color:#02629e}
+body{text-align:left; margin-left: 10%; margin-right: 10%; font-family:Arial; font-style: italic;font-size:28px;background-color:#eaa9bf ;}
+a { color: #10669d; text-decoration: none; } 
+a:visited { color: #660000; text-decoration: none; } 
+a:hover { color: black; text-decoration: underline; } 
+a:active { color: black ; text-decoration: underline ; }
+img{vertical-align:middle;float:right}
