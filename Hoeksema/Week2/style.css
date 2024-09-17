@@ -1,0 +1,38 @@
+body {
+margin: 100px 200px;
+
+background-color: #23472d;
+
+font-family: Century;
+color: #d4c36e;
+font-size: 1.5rem;
+}
+
+h1 {
+font-family: arial; 
+color: #1b2b20;
+}
+
+
+h4 {
+margin: 40px 0px 20px
+}
+
+
+p {
+margin: 10px 50px;
+}
+
+a {
+color: #786e40;
+}
+
+img {
+margin: 30px 0px;
+}
+
+/* mouse-over */
+a:hover {
+color: #1a241d;
+}
+
