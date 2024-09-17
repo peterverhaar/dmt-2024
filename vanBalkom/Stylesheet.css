@@ -1,0 +1,15 @@
+body { margin-left: 10%; margin-right: 10%; font-family: Times New Roman }
+/* new links */ 
+a { color: #003366; text-decoration: none; } 
+/* visited links */ 
+a:visited { color: #660066; text-decoration: none; } 
+/* mouse-over */
+a:hover { color: black; text-decoration: underline; } 
+/* active links*/
+a:active { color: black ; text-decoration: underline ; } 
+h1 {
+    color: #000066
+}
+h2 {
+    color: #000066
+}
