@@ -1,0 +1,56 @@
+<xml> 
+<text>
+<front type="summary'>
+Donald Brace, informs Leonard Woolf that the Company has not received the jacket for The Waves, which is causing difficulties for publication. He requests that Woolf can ask his secretary to send items through marked envelopes and send anything urgent through first-class mail. He informs Woolf that if the jacket isn't received, publication will be postponed. In a P.S., he informs Woolf that the Company has received the jacket with the book copies.
+</front>
+<body>
+<dateline><date when="1921-10-2">2 October 1921</date></dateline>
+<address>
+<addrLine><persName>Leonard Woolf</persName></addrLine>
+<addrLine><orgName>The Hogarth Press</orgName></addrLine>
+<addrLine>52 Tavistock Square</addrLine>
+<addrLine>London, W.C.L.</addrLine>
+</address>
+<salute>Dear <persName>Mr. Woolf:</persname></salute>
+<p>In regard to the publication of <title>THE WAVES</title>, I <lb/>
+appreciate fully of course, the uncertainties of the position <lb/>
+in England, and the date you have fixed on, namely <date when= "1921-10-08"> October <lb/>
+eigth</date>, does not inconvenience us in the least. As a matter <lb/>
+of fact, our edition is nearly ready, except for the jacket.</p>
+<p>You cabled  &#34; Sending jacket Waves &#34; on <date when= "1921-09-18"> September 18th </date>, <lb/>
+but we have not yet received it and its failure to arrive is <lb/>
+making serious difficulties for us. It must, I suppose, turn <lb/>
+up before long, and I can't see that we have anything to do <lb/>
+but to wait for it. If it altogether fails to arrive, I <lb/>
+expect we can work from the jacket on the two copies you have <lb/>
+posted. I hope they, at least, will arrive with reasonable <lb/>
+promptness.</p>
+<p>I would suggest that your secretary, in sending anything <lb/>
+urgent to America, look up the list of sailings in the newspaper <lb/>
+and mark the envelope for the first fast steamship. Anything <lb/>
+urgent should also be sent by first class mail. We find it <lb/>
+saves a great deal of time to mark the envelope because <lb/>
+otherwise mail is delayed for the next British or American <lb/>
+mail ship, which may be a slow one. Unless it is marked, of <lb/>
+course it doesn't catch the mails of such ships as the Europa, <lb/>
+the Bremen, the Ile de France, and so on.</p>
+<p>I received mail by the Majestic on Wednesday, which <lb/> 
+didn't sail from England till <date when= "1921-23-09"> the 23rd </date>, and I can't understand <lb/>
+why the jacket failed to arrive, at least by that ship.</pb></p>
+<p>I had hoped we could publish on <date when= "1921-10-16">the 16th.</date> If the jacket <lb/>
+doesn't turn up at one, we shall have to postpone it <lb/>
+still further.</p>
+<closer>
+<salute>Yours Sincerely</salute>
+<signed>Donald C. Brace.</signed>
+<seg type="postscript">Since the above was written, a parcel containing <lb/> 
+two copies of the book has come in, and in the same parcel <lb/>
+with the books an extra copy of the jacket. I am afraid the <lb/>
+jacket, therefore, was included with the books instead of <lb/>
+being mailed separately. That's too bad because if it had <lb/>
+been mailed by letter post, we might have had it a week ago. <lb/>
+However, we shall be all right now, and I am glad that the books themselves were so prompt in coming through. <lb/> </seg>
+</closer>
+</body>
+</text>
+</xml>
