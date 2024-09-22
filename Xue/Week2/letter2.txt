@@ -1,0 +1,33 @@
+<letter>
+    <sender>
+        <address>
+            <addrLine>17, Wellington Park Terrace</addrLine>
+            <settlement>BELFAST</settlement>
+        </address>
+        <date>November 9th, 1939</date>
+    </sender>
+
+    <recipient>
+        <persName>Leonard Woolf Esq.</persName>
+        <orgName>The Hogarth Press</orgName>
+        <address>
+            <addrLine>37, Mecklenburgh Square</addrLine>
+            <settlement>LONDON</settlement>
+            <postCode>W.C.1</postCode>
+        </address>
+    </recipient>
+
+    <salute>Dear Mr. Woolf:</salute>
+
+    <body>
+        <p>I enclose a carbon copy of a commentary which I have just written on Ivan Bunin’s story <title>The Gentleman from San Francisco</title>. This is based largely on the translation by yourself, <persName>D.H. Lawrence</persName>, and <persName>S.S. Koteliansky</persName>, which you re-issued in <date>1934</date>, and it forms part of a book I am writing, a notebook with commentaries on books and events, on the lines of my <title>From the Irish Shore</title>, published in <date>1936</date> by <persName>Rich & Cowan</persName>.</p>
+
+        <p>Meanwhile I had thought of using this section of my book as a magazine article, and I was wondering if you would have any objection to the quotations as shown in the enclosed carbon copy. The total number of words quoted is, at a rough calculation, about 1500, and the number of separate quotations 11. Acknowledgment would, of course, be made, as shown. I'm sorry the carbon is not more distinct, but it is a bottom copy.</p>
+
+        <p>I enclose a stamped, addressed envelope.</p>
+    </body>
+
+    <closer>Yours sincerely,</closer>
+
+    <signed>Denis Ireland</signed>
+</letter>

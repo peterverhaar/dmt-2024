@@ -1,0 +1,36 @@
+<letter>
+    <sender>
+        <orgName>G. BELL &amp; SONS, LTD</orgName>
+        <address>
+            <addrLine>YORK HOUSE, PORTUGAL STREET</addrLine>
+            <settlement>LONDON</settlement>
+            <postCode>W.C.2</postCode>
+        </address>
+        <date>17th May, 1932</date>
+    </sender>
+    
+    <ref>DCE/VMM</ref>
+
+    <recipient>
+        <orgName>The Hogarth Press</orgName>
+        <address>
+            <addrLine>52 Tavistock Sq.</addrLine>
+            <postCode>W.C.1</postCode>
+        </address>
+    </recipient>
+
+    <salute>Dear Sirs,</salute>
+
+    <body>
+        <p>One of our authors, <persName>Mr. R. W. Moore</persName>, has drafted a scheme for a school text-book comprising short extracts from the best English writers of the day, designed to introduce students to present day prose. We write, therefore, to enquire whether, and if so, on what terms, he may have your permission to reproduce the following extract from certain of your publications:
+
+           Orlando, by <persName>Virginia Wolfe</persName> - p.55 (Long . . .) to p. 61.
+        </p>
+
+        <p>You will appreciate that as the book will have to be issued at a relatively low price, it is not possible for us to pay the fees obtaining for an anthology intended for the general public, and it may even be necessary for us to ask <persName>Mr. Moore</persName> to modify his scheme; but we hope it will be possible to arrange for the inclusion of the extracts mentioned, and shall be grateful if you can see your way to help in the matter.</p>
+    </body>
+
+    <closer>Yours faithfully,</closer>
+
+    <signed>G. BELL AND SONS, LTD.</signed>
+</letter>
