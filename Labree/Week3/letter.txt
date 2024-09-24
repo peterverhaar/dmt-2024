@@ -1,4 +1,4 @@
-<xml> 
+<tei> 
 <text>
 <front type="summary'>
 Donald Brace, informs Leonard Woolf that the Company has not received the jacket for The Waves, which is causing difficulties for publication. He requests that Woolf can ask his secretary to send items through marked envelopes and send anything urgent through first-class mail. He informs Woolf that if the jacket isn't received, publication will be postponed. In a P.S., he informs Woolf that the Company has received the jacket with the book copies.
@@ -53,4 +53,4 @@ However, we shall be all right now, and I am glad that the books themselves were
 </closer>
 </body>
 </text>
-</xml>
+</tei>
