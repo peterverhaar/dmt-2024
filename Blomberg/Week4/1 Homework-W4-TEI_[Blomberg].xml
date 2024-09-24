@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    @xml:id="CHOB_19240404
+    [Letter from Carolie Hobson to Leonard Woolf, 04 04 1924]: a machine readable transcription
+    <front type="summary">A letter from Carolie Hobson to Leonard woolf, providing 
+    the thanking Leonard Woolf</front>
+<title> Letter from <persName key="MAPP0023">Coralie Hobson</persName> 
+    to <persName key="Q703935">Leonard Woolf</persName>, 
+    <date when="1924-4-4">4 April 1924</date>.</title>
+<titleStmt>
+    <author><novelist>Carolie Hobson</novelist></author>
+    <respStmt><resp> Creation of machine-readable version:</resp>
+        <name>Julia Blomberg</name>
+    </respStmt>
+    <respStmt><resp>Conversion to TEI-conformant markup: </resp>
+        <name>Julia Blomberg</name></respStmt>
+    <respStmt><resp>Editorial annotations: </resp>
+        <name>Julia Blomberg</name>
+    </respStmt>
+</titleStmt>
+  <adressLine>56 Cartwright Gardens <lb/>
+  <placeName>w.e.l.</placeName></adressLine>  
+  <date>April 4 1924</date>
+    
+<body>
+    <dateline>
+        <PlaceName>West East London</PlaceName>
+        <date when="1924-04-04">4 April 1924</date>
+    </dateline>
+    <address>
+        <adrrLine><persName>Leonard Woolf</persName></adrrLine>
+        <addrLine>Cartwright Gardens 56</addrLine>
+    </address>
+    <salute>Dear sir,</salute>
+    
+    <p>I Thank you for your letter of the <lb/>
+    1st month and would confirm that I <lb/>
+    would like you to publish the book for <lb/>
+    me on the terms which you support: <lb/></p>
+    
+    <p>I take it therefore that you will <lb/>
+        how prepare a formal entrant which I<lb/>
+        shall be glad to recieve at your convenience.<lb/></p>
+    
+    <p> I also thank you for your specimen <gap reason="illegible"/> <lb/>
+        which appears to me to the satisfactory,<lb/>
+        and which I now return <lb/></p>
+    
+    <p>I suggest as a little fun the book
+        <title>'smoke rings'</title></p>
+    
+    <salute>Yours faithfully,</salute>
+    
+    <signed>Coralie Hobson</signed> 
+      
+</body>
+</TEI>

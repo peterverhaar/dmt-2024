@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI> 
+    @xml:id="CHOB_19240506
+    [Letter from Carolie Hobson to Leonard Woolf, 06 04 1924]: a machine readable transcription
+    <front type="summary">A letter from Carolie Hobson to Leonard woolf, providing a list of people who
+        should be provided with a notice </front>
+    <title> Letter from <persName key="MAPP0023">Coralie Hobson</persName> 
+     to <persName key="Q703935">Leonard Woolf</persName>, 
+     <date when="1924-5-6">6 April 1924</date>.</title>
+    <titleStmt>
+    <author><novelist>Carolie Hobson</novelist></author>
+    <respStmt><resp> Creation of machine-readable version:</resp>
+        <name>Julia Blomberg</name>
+    </respStmt>
+    <respStmt><resp>Conversion to TEI-conformant markup: </resp>
+        <name>Julia Blomberg</name></respStmt>
+    <respStmt><resp>Editorial annotations: </resp>
+        <name>Julia Blomberg</name>
+    </respStmt>
+    </titleStmt>
+    
+   <body>
+       <dateline>
+           <PlaceName>unknown</PlaceName>
+           <date when="1924-05-06">6 April 1924</date>
+       </dateline>
+       <address>
+           <adrrLine><persName>Leonard Woolf</persName></adrrLine>
+       </address>
+   <date>mon 6 5 24</date>
+       
+       <salute>Dear<recipicant>Mr Woolf</recipicant></salute><lb/>
+        
+       <p>The following are the <lb/>
+        name and addresses of a few <lb/>
+        people to whom I think you <lb/>
+        might send notices. <lb/> </p>
+       
+       <p><persName>Mr Arthur Rowntree</persName><lb/>
+           <adressLine>Bootham school <lb/>
+               <placeName>York</placeName></adressLine><lb/></p>
+       
+       <p><persName>W.S. Rowntree esq.</persName><lb/>
+          <adressLine>Scarborough<lb/>
+              <placeName>York</placeName></adressLine><lb/></p>
+       
+       <p><persName>T.C. Christianson</persName><lb/>
+           <orgName>c/o Metropolitan Vickers<lb/>
+               Electrical co. ltd </orgName><lb/>
+            <adressLine>Trafford Park<lb/>
+                <placeName>Manchester</placeName></adressLine><lb/></p> 
+       
+       <p><persName>R. Helson</persName><pb/>
+           <adressLine>32 Victoria st <lb/>
+               <placeName>s.w.l</placeName></adressLine><lb/></p>
+                                                        
+       <p><persName>Mrs Blanche Smith</persName><lb/>
+           <orgName>c/o Manchester guardian</orgName><lb/>
+           <adressLine>Cross st<lb/>
+               <placeName>Manchester</placeName> </adressLine><lb/></p>
+         
+       <p><persName>M.A. Spielman</persName><lb/>
+          <adressLine>29 Cambridge sq<lb/>
+              <placeName>Lo 2.</placeName></adressLine><lb/></p>
+                 
+       <salute>Yours Sincerely,</salute><lb/>
+       <signed>Coralie Hobson</signed> <lb/>                                                                       
+   </body> 
+      
+</TEI>
