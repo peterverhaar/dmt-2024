@@ -16,8 +16,8 @@
         </physicalDescription>
     </item>
     <item>
-        <language>English
-            <author>Darnton, Robert</author></language>
+        <language code= "eng">English</language>
+            <author>Darnton, Robert</author>
         <title>The kiss of Lamourette : reflections in cultural history</title>
         <edition> [New ed.]</edition>
         <imprint>
