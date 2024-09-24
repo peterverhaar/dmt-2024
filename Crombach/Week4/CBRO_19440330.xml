@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Curtis Brown Ltd) to Leonard Woolf, 30/03/1944: A
+                    machine-readable transcription</title>
+                <author>
+                    Curtis Brown Ltd)
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Sabine Crombach
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Sabine Crombach
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Sabine Crombach
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    MS 2750/2/1/42
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Curtis Brown Ltd) to Leonard Woolf, 30/03/1944
+                    </title>
+                    <author>
+                        Curtis Brown Ltd)
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/2/1/42
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    An employee of Curtis Brown forwards a request for permission to publish an Indian edition of the book TWILIGHT IN DELHI
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            <!-- place name as in letter -->
+                        </placeName>
+                        <date when="1944-03-30">
+                            March 30th 1944
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName key="Q703935">Leonard Wolfe Raq.,</persName>
+                            <orgName>Messrs Hogarth press</orgName>
+                        </addrLine>
+                        <addrLine>
+                            Pixmore Avenue <lb/>
+                            LETCHWORT H <lb/>
+                            Herts <lb/>
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear <persName key="Q703935">Mr. Wolfe</persName>, <lb/>
+                    </salute>
+                </opener>
+                <p>
+                    <persName key="Q18936256">Mrs. Spencer Curtis Brown</persName> is away from the office at <lb/>
+                    the moment so I am writing to you in her absence. We <lb/>
+                    have received an airmail from <persName key="Q4695257">Mr. Ahmed Ali</persName> in which he <lb/>
+                    says:
+                </p>
+                <p>
+                    "Now that <title>TWILIGHT IN DELHI</title> has been included in <lb/>
+                    the list of books recommended to British soldiers <lb/>
+                    it should do very well indeed. This list, I find <lb/>
+                    will be distributed to all the British soldiers <lb/>
+                    in this country <placeName>(India)</placeName> or coming to it, and will <lb/>
+                    become operative in another couple months. A <lb/>
+                    cheap edition therefore will be so much better and <lb/>
+                    an Indian edition, because easily available in this <lb/>
+                    country will be better still. I also discovered <lb/>
+                    that the novel won good points in a competition held <lb/>
+                    by two papers - the <title>Illustrated Weekly of India</title> and <lb/> 
+                    the <title>Bombay Chronicle</title>. It was within the first twenty <lb/>
+                    books on <placeName>India</placeName> - which included the classics and <lb/>
+                    philosophies and other books in a Best Books com- <lb/>
+                    petition on <placeName>India</placeName> run by <orgName>pearl Buck</orgName>. <title>TWILIGHT</title> was <lb/>
+                    within the first ten books. Two Indian publishers <lb/>
+                    have been asking me to give them permission to bring <lb/>
+                    out an edition immediately, of 3000 copies."
+                </p>
+                <p>
+                    He is most anxious to have your permission for this <lb/>
+                    Indian edition to be brought out and I wonder, if, in the <lb/>
+                    circumstances, you would be willing to give your consent.
+                </p>
+                <closer>
+                    <salute>
+                        Yours very truly,
+                    </salute>
+                    <signed/>
+                    <salute>
+                        (In the absence of <persName key="Q18936256">Mrs. Curtis Brown</persName>)
+                    </salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
