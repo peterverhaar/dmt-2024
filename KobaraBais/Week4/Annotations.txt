@@ -1,0 +1,20 @@
+    In general:
+    Where to add indentation? Both letters have clear indentations.
+
+    Letter #1- Leonard Woolf to E. McKnight Kauffer
+    
+    a) the black ink of some of the letters (types) is "worn out" and there is no consistency in the letters which are faded. Is it important to mention
+    that the letter contain types which are faded, but still legible? If it is, where to add this note? in the TEI header? In fact, need to crosscheck 
+    if the house number is 14 or 141. 
+    Found it - From E.McKnight's reply- his address is 141.
+    I added "unclear" to line 112 of my TEI doc.
+
+
+    Letter #2 - Donald C. Brace to Leonard Woolf about novel Orlando:
+
+    a) The color of the ink the typewriter used was blue. Which element should I used and its attribute to mention that?
+    b) a P.S. has to be characterised by the letters P.S? Or anything that is written after the signature can be considered P.S.? Even like a code? 
+    c) At the top of the document there is the word "COPY [underlined]". Is that part of the body of the letter? Should I add an element before the Opener?
+    Oh... "COPY" as it says at the top of the letter, is in blue, because the carbon copy paper used was blue? Is that it?
+    d) Do I need to request a new identifier number for Mrs. Van Doren?  because I didn't find her name in Wikidata, nor in the list of all the existing local identifiers
+

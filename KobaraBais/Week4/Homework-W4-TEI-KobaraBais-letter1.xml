@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt> 
+                <title>
+                    <author></author>
+                    <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Suggested ideas for the jacket or cover of the book entitled <&quot;>Quack, Quack!<&quot;> and information about its size.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline> 
+                        <placeName>14 Swan Court, S.W.3</placeName>
+                <date when="1935-03-18">March 18th, 1935.</date>
+                    </dateline>
+                    <address>
+                        <addrLine> <persName> E.McKnight Kauffer</persName>, Esq.,</addrLine>
+                        <addrLine>14 <unclear reason="ink faded" cert="number">1</unclear> Swan Court, S.W.3</addrLine>
+                    </address>
+                    <lb/>
+                    <salute> Dear Kauffer,</salute>
+                </opener>
+                <lb/>
+                <p> You said you would be good enough to design a jacket
+                    for my book. It is called <title><emph rend="underlined">Quack, Quack!</emph></title>, and is about quackery
+                    in politics, and largely about fascism. I enclose rough pulls
+                    of four of the illustrations which I am using in the book. They
+                    are supposed to show the resemblance between fascist leaders ad-
+                    dressing their following, and the masks of savages representing
+                    war gods. I thought perhaps it might be a good thing to have
+                    these four photographs - or rather the heads - reduced to small
+                    medallions on the jacket. Do you think that some design in-
+                    corporating these would be a possibility?</p>
+                <lb/>
+                <p> It is an ordinary crown 8vo book, but we will send you
+                    a dummy showing the exact size of the spine, and we can also send
+                    you better pulls of the photographs if necessary.</p>
+                <lb/>
+                <closer>
+                    <salute> Yours,</salute>
+                <lb/>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

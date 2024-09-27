@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                  About Orlando's cover, proofreading some of the pages of the novel and settled date for its publication. Inquiry about The Literary Guild.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            New York
+                        </placeName>
+                        <date when="1928-08-02">August 2, 1928
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>Leonard Woolf</persName>, Esq.,
+                            <orgName>The Hogarth Press</orgName>
+                        </addrLine>
+                        <addrLine>52 Tavistock Square</addrLine>
+                            <addrLine>London, W.C.l.</addrLine>   
+                    </address>
+                    <salute>Dear Mr. Woolf:</salute>
+                </opener>
+                <lb/>
+                    <p>On my return from a brief holiday, I find your
+                        several letters covering details in regard to <title>ORLANDO.</title></p>
+                 <lb/>
+                    <p>The three photographs have been received. Please 
+               don't trouble about the photograph of the illustration you are
+               using on the wrapper. I think we shall not use this for our
+               edition. I don't want the book to get classified as
+               biography in the bookstores, and I am afraid this would be 
+               inevitable if we make the wrapper like yours.</p>
+                 <lb/>   
+                    <p>Many thanks for sending so promptly the six sets 
+               of page proofs.</p>
+                 <lb/>   
+                    <p>The date of publication we consider settled for 
+               October 11th.</p>
+                 <lb/>   
+                    <p>I also have from Mrs. Woolf the revised proofs covering
+               page 269 and the Index.</p>
+                  <lb/>  
+                <p>Perhaps you will be wondering whether <orgName key="Q6647599">The Literary
+               Guild</orgName> has reached any decision. You will remember that I 
+               cabled you suggesting your showing the book to Mr. Van Doren
+               while he was in London. Although he has not yet returned, I
+               understand that he saw you and read the book. We have been
+               able to let <persName>Mrs. Van Doren </persName>read it here. We shall not get
+               a final decision from the Guild until the selecting committee
+               is together, which I understand will not be until the latter
+               part of this month. I expect you know in a general way
+               about <orgName key="Q6647599">The Literary Guild,</orgName> but I will give you full details
+               whenever there is anything definite to report.</p>
+                  <lb/>  
+                <closer>
+                    <salute>Very sincerely,</salute>
+                    <lb/>
+                    <signed>Donald C. Brace.</signed>
+                    <address>
+                        <addrLine><orgName>Hartcourt, Brace and Company, Inc.</orgName></addrLine>
+                        <addrLine><orgName>Publishers,</orgName></addrLine>
+                        <addrLine>383 Madison Avenue,</addrLine>
+                        <addrLine>New York</addrLine>
+                    </address>
+                    <seg> BCD:CMc</seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
