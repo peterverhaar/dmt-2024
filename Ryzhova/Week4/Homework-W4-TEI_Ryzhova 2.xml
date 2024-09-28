@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ETHO_19260101">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Edward Thompson to Leonard Woolf, 01 January 1926 : A
+                    machine-readable transcription</title>
+                <author>
+                    Edward Thompson
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Lena Ryzhova
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Lena Ryzhova
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Lena Ryzhova
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+               8 KB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                  ETHO_19260101
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date> 2024 </date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName key="Q13522415"> Edward Thompson </persName> to <persName key="Q703935"> Leonard Woolf </persName>, <date when="1926-01-01">01 January 1926 </date>
+                    </title>
+                    <author>
+                        <persName key="Q13522415">Edward Thompson</persName>  
+                    </author>
+                    <idno type="callNo">
+             MS 2750/487/17
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    In this letter to Leonard Woolf, Edward Thompson agrees to an American edition of his book, noting concerns about potential misuse of the content by anti-British groups in the U.S. He wants it printed to secure copyright and expose British foreign office influence on missions.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <address>
+                            <addrLine> SCAR TOP </addrLine>
+                            <addrLine> BOARS HILL, </addrLine>
+                            <placeName> OXFORD </placeName> </address>
+                        <date when="1926-01-01">
+                            1.1.26
+                        </date>
+                    </dateline>
+                 
+                    <salute>
+                        Dear <persName type="recipient">Mr. Woolf,</persName>  
+                    </salute>
+                </opener>
+                <p>
+                    Yes, let <persName> Harcourt Bruce </persName> do an American edition, <lb/>
+                then. There are so many anti-British circles in the <placeName>U.S.A.</placeName>, esp. <lb/>
+                    groups of Bengalis - <persName key="Q7633783">Sudhindra Bose</persName>, <persName key="Q19795189">Basanta Roy</persName>,&amp; Co. - that other- <lb/>
+                wise there will certainly be garbled part-printings of the book, <lb/>
+                esp. as it is so largely quotation. <lb/>
+                </p>
+                <p> But I am not content to have it simply anti- <lb/>
+                British propaganda, or to feed fat Yankee self-esteem. This <title>Preface</title>  <lb/>
+                has cost me a lot of bother, dissatisfied though it leaves me. But  <lb/>
+                I shd. like it printed. One small thing that it does is, it saves the  <lb/>
+                    American copyright of the book, as printed by  <persName>  Harcourt Bruce </persName>. A  <lb/>
+                bigger thing is, it will make a few folk see the way our Foreign  <lb/>
+                    Offices have through the <persName key="Q1827237">Lionel Curtises </persName>&amp; <persName>J.R. Motts</persName> collared the  <lb/>
+                missions. </p>
+            
+                <closer>
+                    <salute>
+                        Yours sincerely
+                    </salute>
+                    <signed>Edward Thompson</signed>
+                    
+                    <persName>  Leonard-Woolf Esq. </persName>
+                    <address> 
+                        <orgName key="Q1623362">The Hogarth Press</orgName> 
+                        <placeName>London</placeName>
+                    </address>
+                    
+                    
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
