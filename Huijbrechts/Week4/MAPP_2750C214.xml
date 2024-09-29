@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Donald C. Brace to Leonard Woolf, July 6, 1933: A <!-- check date! -->
+                    machine-readable transcription</title>
+                <author>
+                    Donald C. Brace
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Adrie Huijbrechts
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Adrie Huijbrechts
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Adrie Huijbrechts
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/C/21/4
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <!-- summary of contents -->
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    MS 2750/C/21/4
+                    COPY.
+                    <orgName key="">Harcourt, Frace and Company, Inc. <lb/>
+                    Publishers,
+                    </orgName> <!-- add keys in the entire document! -->
+                    383 Madison Avenue,
+
+                    <dateline>
+                        <placeName>
+                            New York.
+                        </placeName>
+                        <date when="1933-07-06">
+                            July 6, 1933.
+                        </date>
+                    </dateline>
+
+                    <address>
+                        <addrLine>
+                    <persName key="">Leonard Woolf, Esq.,</persName>                       
+                        </addrLine>
+                        <addrLine>
+                            <orgName key="">The Hogarth Press,</orgName>
+                        </addrLine>
+                        <addrLine>
+                            52 Travistock Square,   
+                        </addrLine>
+                        <addrLine>
+                            <placeName>London</placeName>, W.C.1. 
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear <persName key="">Mr. Woolf</persName>:
+                    </salute>
+                </opener>
+                <p>
+                    I am delighted to hear that the <orgName key="">Book Society</orgName> is <lb/>
+                    taking <title key="">FLUSH</title> as their October selection. The changes in your<lb/>
+                    plans need not, I think, affect us at all. We were already<lb/>
+                    making a larger book than you were, and we shall go ahead with<lb/>
+                    <persName key="">Mrs. Bell</persName>'s drawings as end papers and with the three photo-<lb/>
+                    graphs we already have.
+                    <lb/>
+                    I note that your publication date will now be<lb/>
+                    October fifth. We shall choose the same date un less something,<lb/>
+                    perhaps a book club choice here, should make a change necessary.<lb/>
+                    In any event, of course our date couldn't be before October<lb/>
+                    fifth. The <orgName key="">Book-of-the-Month Club</orgName> is definitely interested,<lb/>
+                    but as three of their judges are in Europe, it will be some<lb/>
+                    little time before we shall have their final decision.<lb/>
+                    <lb/>
+                    I wish you would send me two copies of your edition<lb/>
+                    when you have it ready so that we may be in a position to us<lb/>
+                    them, if we need to, for copyrighting pusposes.<lb/>
+                    <lb/>
+                    We shall be glad to send you £20 as our fee for the<lb/>
+                    use of <persName key="">Mrs. Bell</persName>'s end papers.<lb/>
+                    <lb/>
+                    Thank you for cabling so promptly the corrections<lb/>
+                    in respect to the dates in <title key="">FLUSH</title>. I don't know whether the<lb/>
+                    Atlantic will have time to correct all of them or not, but<lb/>
+                    of course we are correcting them in the book.<lb/> <!-- expand the incomplete references -->
+                    <lb/>
+                    See enclosed letter from the <orgName key="">Atlantic</orgName> just received.<lb/> <!-- organisation? -->
+
+                </p>
+                <closer>
+                    <salute>
+                    With kind regards,<lb/>
+                    <lb/>
+                    Yours sincerely,<lb/>
+                    <persName key="">Donald C. Brace.</persName><lb/>
+                    </salute>
+                    <signed/>
+                    <seg>
+                        DCB:CMc. <!-- check what this is-->
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
