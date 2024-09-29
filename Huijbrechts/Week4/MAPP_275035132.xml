@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MAPP_275035132"> <!-- check the id's throughout the doument -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt> <!-- check dates  for correct formats-->
+                <title>Letter from William Aspenwall Bradley to The Hogarth Press, 11/06/1934: A
+                    machine-readable transcription</title>
+                <author>
+                    William Aspenwall Bradley
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Adrie Huijbrechts
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Adrie Huijbrechts
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Adrie Huijbrechts
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes, which one? original or this file?  -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    MAPP_275035132
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from William Aspenwall Bradley to The Hogarth Press, 11/06/1934
+                    </title>
+                    <author>
+                        William Aspenwall Bradley
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/351/32
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language> <!-- I changed the language from dut (Dutch) to English -->
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/"> <!-- check! -->
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <!-- Summary taken from the MAPP archive  -->
+                     William Aspenwall's secretary writes to enquire about French rights relating to Turbott Wolfe, Sado and The Case is Altered.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="Q47536189">
+                                WILLIAM ASPENWALL BRADLEY
+                            </persName>
+                            <!-- recipient's name, using <persName> or <orgName> element -->
+                        </addrLine>
+                        <addrLine>
+                            5, RUE SAINT-LOUIS-EN-L<!-- ' -->ILE
+                            <!-- recipient's address (add <addrLine>s as required) -->
+                        </addrLine>
+                        <addrLine>
+                            <placeName>PARIS</placeName> 4 <!-- add degree sign -->
+                        </addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1934-06-11">
+                            11 June,1934.
+                        </date>
+                    </dateline>
+                    <salute>
+                        Dear sirs, <!-- add the orgName tag here? so that The Hogarth Press shows up -->
+                    </salute>
+                </opener>
+                <p>
+                    <!-- text of letter -->
+                     <!-- lb and pb for line break and page break -->
+                <!-- add a tab here -->We have a French publisher in-<lb/> <!-- check if I can find out which one -->
+                    terested in the three following books by<lb/>
+                    <persName key="Q1282985">William Plomer</persName>: <title key="Q42196927"><choice><sic>TURBOT<lb/>
+                    WOLFE</sic><corr>Turbott Wolfe</corr></choice></title>, <title key="" >SADO</title> <!-- add keys to both other novels, have to be made first -->and <title key="">THE CASE IS<lb/>
+                    ALTERED</title>. May we ask whether the<lb/>
+                    French translation rights are<lb/>
+                    free? If so, we should be glad to<lb/>
+                    have copies for our client's<lb/>
+                    examination, with the usual<lb/>
+                    exclusive option.               
+                </p>
+                <closer>
+                    <salute>Thanking you in advance,</salute>
+                    <salute>we are,</salute>
+                    <salute>Very faithfully yours,</salute>
+                    <salute><persName key="Q47536189"><choice><abbr>W.A. BRADLEY</abbr><expan>William Aspenwall Bradley</expan></choice></persName></salute>
+                    <signed>Bradley</signed>
+                    <salute>Secretary</salute>
+                    <seg>
+                        <addrLine>CABLE ADDRESS : ASPENSSA PARIS</addrLine> <!-- double check whether this is correct, visual code does't like it-->
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
