@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MAPP0011_19490512">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Aline Burch to Liveright Publishing Corporation (12/05/1949)</title>
+                <author>
+                    Aline Burch
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Layan Abdul Shakoor
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Layan Abdul Shakoor
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Layan Abdul Shakoor
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                7 kB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    MAPP0011_19490512 
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName key="MAPP0011"> Aline Burch</persName> to <orgName key="Q2910098">Liveright Publishing Corporation</orgName>, <date when="1949-05-12">12 May 1949</date>
+                    </title>
+                    <author>
+                        Aline Burch
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    In this letter, Aline Burch, writing on behalf of The Hogarth Press regarding Sigmund Freud's ??????
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            ???????
+                        </placeName>
+                        <date when="1949-05-12">
+                            12th May, 1949.
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>Aline Burch</persName>[
+                        </addrLine>
+                        <addrLine>
+                            386 Fourth Avenue,
+                            New York, 16, N.Y.,
+                            U.S.A.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Sor,
+                    </salute>
+                </opener>
+                <p>
+                    Group Psychology and the Analysis </lb>
+                    of the Ego: <persName key="Q9215">Sigmund Freud</persName></lb>
+                </p>
+
+                <p>
+                    Thank you for your letter of <date>May 2</date>. </lb>
+                    We are putting in hand at once your order </lb>
+                    for 2600/2500 folded and collated sheets </lb>
+                    of the above book. As these sheets are </lb>
+                    not being printed by the same firm as </lb>
+                    <title>THE FUTURE OF AN ILLUSION</title>, I wonder if </lb>
+                    you could let us have another stereo of </lb>
+                    your collophon? </lb>
+                </p>
+
+                <p>
+                    With regard to the price, we have </lb>
+                    gone into the figures again, and although </lb>
+                    this is cutting things very fine for us, </lb>
+                    we feel that we should like to meet you </lb>
+                    in this particular instance. We will, </lb>
+                    therefore, invoice the sheets to you at </lb>
+                    2s.2d. instead of 2s.4d. as previously </lb>
+                    quoted.   
+                </p>
+
+                <closer>
+                    <salute>
+                        Your truly,
+                    </salute>
+                    <signed/>
+                    <seg>
+                        for <orgName key="Q1623362">The Hogarth Press Ltd.</orgName>
+                        <persName key "?????">Arthur Pell</persName>,Esq.,
+                        <orgName key="Q2910098">Liveright Publishing Corporation</orgName>,
+                        <address>
+                            <addrLine>386 Fourth Avenue,</addrLine>
+                            <addrLine>New York, 16, N.Y.,</addrLine>
+                            <addrLine>U.S.A.</addrLine>
+                        </address>
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+Annotations
+What is Arthur Pell's identifier?

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MAPP0011_19480708">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Aline Burch to Penguin Books, (08/07/1948): A
+                    machine-readable transcription</title>
+                <author>
+                    Aline Burch
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Layan Abdul Shakoor
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Layan Abdul Shakoor
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Layan Abdul Shakoor
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                6 kB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    MAPP0011_19480708 
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName key="MAPP0011"> Aline Burch</persName> to <orgName key="Q1336200">Penguin Books, Ltd.</orgName>, <date when="1948-07-08">08 July 1948</date>
+                    </title>
+                    <author>
+                        Aline Burch
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    In this letter, Aline Burch writes on behalf of Mr. Woolf to Penguin Books, Ltd. informing them that they will not renew their contract for "The Common Reader" series with the publisher, citing their concern that republishing the work will affect the sales of the Uniform Edition.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            West Drayton, Middx.
+                        </placeName>
+                        <date when="1948-07-08">
+                            8th July, 1948.
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <orgName key="Q1336200">Penguin Books, Ltd.</orgName>
+                        </addrLine>
+                        <addrLine>
+                            West Drayton, Middx.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Sir,
+                    </salute>
+                </opener>
+
+                <p>
+                    <persName key="Q703935">Mr. Woolf</persName> has asked me to reply </lb>
+                    to your letter to him of <date>June 30</date>, </lb>
+                    and to explain the position with </lb>
+                    regard to <title>THE COMMON READER</title>, Series </lb>
+                    I and II. We, ourselves, have just </lb>
+                    been able to reprint the First Series </lb>
+                    in our Uniform Edition at 7/6d. and </lb>
+                    the Second Series is at the binders, </lb>
+                    and <persName key="Q703935">Mr. Woolf</persName> feels that the issue of </lb>
+                    a 1/6d <orgName key="Q1336200">Penguin</orgName> reprint, at the same </lb>
+                    time, cannot fail to have an adverse </lb>
+                    affect on the sales of the Uniform </lb>
+                    Edition. In the circumstances, there- </lb>
+                    fore, he would very much prefer not </lb>
+                    to renew the <orgName key="Q1336200">Penguin</orgName> contracts, </lb>
+                    at any rate for the present. </lb>
+                </p>
+                <closer>
+                    <salute>
+                        Yours faithfully,
+                    </salute>
+                    <signed/>
+                    <seg>
+                        <persName key="MAPP0011">Secretary to Mr. Woolf</persName>
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+Annotations
+How do I encode "the Uniform Edition"?
+Should I include "Series I and II" within the work's title?
