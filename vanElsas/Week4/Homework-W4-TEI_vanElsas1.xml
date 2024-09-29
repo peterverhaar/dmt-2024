@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    A letter from Edward Upward to a Dorothy Lange about an photograph for upcoming issue of the Book Society News and the publishing rights for his book in America. 
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            London
+                        </placeName>
+                        <date when="1938-02-13">
+                            Feb 13th 1938
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <!-- recipient's name, using <persName> or <orgName> element -->
+                        </addrLine>
+                        <addrLine>
+                            39 Woodleigh Garden <lb/>
+                            S.W.16
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Miss Lange,
+                    </salute>
+                </opener>
+                <p>
+                    Many thanks for your letter.<lb/>
+                    I enclose a few biographical details for<lb/>
+                    <title>the Book Society News</title>. I have not a good photograph <lb/>
+                    of myself in my possession, but <persName key="Q5919346">Howard <lb/>
+                        Coster</persName> has recently done a very good one. I<lb/>
+                    don&apos;t know whether there is any possibility<lb/>
+                    that <del rend="strikethrough">be prepared</del> <orgName>the Book Society</orgName> might<lb/>
+                    be prepared to buy one from him: if not,Homework-W4-TEI_[YourLastName]<lb/>
+                    please let me know and I will obtain one.<lb/>
+                    </p> <p>
+                    I have just received from <persName>John J.<lb/>
+                        Trounstine</persName> of <placeName key="Q60">New York</placeName> an inquiry as<lb/>
+                        to whether any arrangements have been<lb/>
+                        made for publishing my book in <placeName key="Q30">America</placeName>.<lb/>
+                        If no arrangements have been made, would<pb/>
+                        there be any objection to permitting him<lb/>
+                        to look for a publisher there?
+                </p>
+                <closer>
+                    <salute>
+                        Yours sincerely,
+                    </salute>
+                    <signed/>
+                    <seg>
+                        Edward Upward
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
