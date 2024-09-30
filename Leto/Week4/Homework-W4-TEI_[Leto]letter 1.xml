@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EUPW_19461227">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Edwatd Upward to John F. Lehmann, 27/12/1945: A
+                    machine-readable transcription</title>
+                <author>
+                    Edward Upward
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Sara Leto
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Sara Leto
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Sara Leto
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                6 KB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    EUPW_19451227
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>24/09/2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName key="Q731146">Edward Upward</persName> to John F. Lehmann, <date when="1945-12-27">27th Dec '45</date>
+                    </title>
+                    <author>
+                        Edward Upward
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/507/3/21
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024 Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Letter from Edward Upward to John F. Lehmann reagrding the book "Journey to the Border"
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            154 Turney Road Dulwich S.E. 21
+                        </placeName>
+                        <date when="YYYY-MM-DD">
+                            1945-12-27
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                             <persName>John F. Lehmann </persName> 
+                        </addrLine>
+                        <addrLine>
+                             <addrLine> 154 Turney Road Dulwich S.E. 21
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear John, thanks very much for your letter
+                    </salute>
+                </opener>
+                <p>
+                    The position at present is that <persName>Mr Tavernier</persName> of <lb/>
+                    "<unclear reason="bad writing"> " will, if he wishes to publish a translation <lb/>
+                    of <title>Journey to the Border</title>, get in touch with you. In <lb/>
+                    that case I should be glad if you would negotiate <lb/>
+                    a contract. He hasn't yet seen the book, but the intending<lb/>
+                    translation will be discussing it with him, and <persName>Mr Tavernier</persName> <lb/>
+                    will have made a decision by the time he comes over here <lb/>
+                    in the new year <lb/>
+                    I am still working at the new novel. I think <lb/>
+                    that something worth while will come of it in the end
+                </p>
+                <closer>
+                    <salute>
+                        Yours ever, Edward
+                    </salute>
+                    <signed/>
+                    <seg>
+                        <gap/>
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

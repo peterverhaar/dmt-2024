@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EUPW_19461227">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Edwatd Upward to John F. Lehmann, 27/12/1945: A
+                    machine-readable transcription</title>
+                <author>
+                    Edward Upward
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Sara Leto
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Sara Leto
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Sara Leto
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                6 KB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    EUPW_19451227
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>01/10/2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName key="Q731146">Edward Upward</persName> to <persName key="Q230673">Dorothy Lange</persName>, <date when="1937-12-05">Dec 5th '37</date>
+                    </title>
+                    <author>
+                        Edward Upward
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/507/3/8
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024 Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Letter from Edward Upward to Dorothy Lange regarding the book "Journey to the Boder"
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            39, Woodleigh <unclear reason="bad writing">
+                        </placeName>
+                        <date when="YYYY-MM-DD">
+                            1937-12-05
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                             <persName>Dorothy Lange </persName> 
+                        </addrLine>
+                        <addrLine>
+                            <addrLine> 39, Woodleigh <unclear reason= "bad writing"> S.W. 16 Dec 5th '37
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear M Lange
+                    </salute>
+                </opener>
+                <p>
+                    I enclose my "blurb" for<lb/>
+                    <title>Journey to the Border</title>. I am afraid it does </lb>
+                    not read very invintingly. If there is anything </lb>
+                    in it you would like to change, please do so. </lb>
+                    I am sorry for my delay in sending it. </lb>
+                    There is another matter I ought to </lb>
+                    have mentioned before. Would it be possible </lb>
+                    for an acknowledgement to the editor of New </lb>
+                    Writing to be printed at the begininning of my book? </lb>
+                    Extracts have appeared in New Writing no.s 193.
+                </p>
+                <closer>
+                    <salute>
+                        Yours truly, Edward Upward 
+                    </salute>
+                    <signed/>
+                    <seg>
+                        <gap/>
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
