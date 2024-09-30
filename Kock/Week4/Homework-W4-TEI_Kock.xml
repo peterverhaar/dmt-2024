@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from E.M. Forster to Leonard Woolf, 1924-05-27: A
+                    machine-readable transcription</title>
+                <author>
+                    E.M. Forster
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Celine Kock
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Celine Kock
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Celine Kock
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+            
+            
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    EMFO_19240527
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+            
+            
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from E.M. Forster to Leonard Woolf, 27/05/1924
+                    </title>
+                    <author>
+                        E.M. Forster
+                    </author>
+                    <idno type="callNo">
+                        2750/92/9
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025 Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    
+    
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    E.M. Forster updates Leonard Woolf on the status of different books as well as his own whereabouts.<!-- summary of contents -->
+                </p>
+            </div>
+        </front>
+    
+    <body>
+        
+        <div type="letter">
+            <opener>
+                <dateline>
+                    <placeName>
+                        Reform Club S.W.
+                    </placeName>
+                    <date when="1924-05-27">
+                    </date>
+                </dateline>
+                <address>
+                    <addrLine>
+                        <persName key="Q703935">Leonard Woolf</persName>
+                    </addrLine>
+                    <addrLine>
+                       Reform Club 
+                    </addrLine>
+                    <addrLine>
+                        S.W.
+                    </addrLine>
+                </address>
+                <salute>
+                    Dear <persName key="Q703935">Leonard</persName>,
+                </salute>
+            </opener>
+            <p>
+                Thank you for your letters. I have <lb/>
+                read <title>Elgood</title> with interest and <lb/>
+                will send you a notice on him <lb/>
+                probably not a long one.<lb/>
+                The second copy of <title>Mrs. Fay</title><lb/>
+                is with <persName key="MAPP0028">Harcourt Bruce</persName>. I have<lb/>
+                urged its speedy return, and Mr.<lb/>
+                <persName>Randall</persName> shall then have it. He <lb/>
+                could of course have my own copy.<lb/>
+                but this is rather inconvenient – <lb/>
+                artly because I have made<lb/>
+                marginal notes which might<lb/>
+                lead to confusion in the collating<lb/>
+                <pb/>
+                        
+                I hope to see <persName>Miss Power</persName> on <lb/>
+                Thursday, and ask her some<lb/>
+                questions, and then get to work. <lb/>
+                business here (I write from <lb/>
+                <placeName>West Hackhurst</placeName>) will survive<lb/>
+                the immortality of my soul which,<lb/>
+                under its circumstances, had better<lb/>
+                devote a few hours to <title>Eliza</title><lb/>
+                each day.<lb/>
+                I stop at <placeName>the Club<placeName> from<lb/>
+                Wednesday to Friday - giving<lb/>
+                it one night to a banquet of<lb/>
+                booksellers and the other in solitude<lb/>
+                to Der Rosenkavalier. When could I <lb/>
+                attend <placeName>Tavistock Square</placeName> also? <lb/>
+                </p>
+            <closer>
+                <signed>
+                    <persName key="Q189119">Morgan</persName>
+                </signed>
+            </closer>
+        </div>
+    </body>
+  </text>
+</TEI>
