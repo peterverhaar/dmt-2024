@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_2750_248_29">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName> William Plomer</persName> to <persName> Leonard Woolf</persName>, <date when= "1949-07-21"> 21st July, 1949 </date>: 
+                    machine-readable transcription</title>
+                <author>
+                    William Plomer
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Kayla Varga 
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Kayla Varga 
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Kayla Varga 
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                6 kBytes
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno type="shelfmark">MS_2750_248_29
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from  <persName> William Plomer </persName> to <persName> Leonard Woolf </persName>, <date when= "1949-07-21"> 21st July, 1949 </date>
+                    </title>
+                    <author>
+                        William Plomer
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    William Plomer writes to Leonard Woolf about reissuing a selection of his written works for the New Phoenix Library's new collection. 
+                </p>
+            </div>
+            
+        </front> 
+        <body>
+            <div type="letter"> 
+        <opener>
+                    <dateline>
+                        <placeName>
+                         
+                        </placeName>
+                        <date when="1949-07-21">
+         
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName> William Plomer</persName>
+                        </addrLine>
+                        <addrLine>
+                            29 Luiden Gardens W2 
+                        </addrLine>
+                    </address>
+                    <salute>
+                        My Dear Leonard,
+                    </salute>
+                </opener>
+                <p>
+                  Thank you for
+                  your letter of yesterday.
+                  I should be happy
+                  to see some book of
+                  mine in the New
+                  Phoenix Library and would agree to the
+                  terms you propose,
+                  but would you 
+                  consider reissuing 
+                  Sado instead of I 
+                  Speak for Africa? I dont
+                  2
+                  
+                  feel that anything 
+                  in I Speak for Africa 
+                  is worth reproducing
+                  except "Ula Masondo" 
+                  and a much shorter
+                  story called "Black Peril". I should
+                  like to think that 
+                  Sado is worth reviving 
+                  for readers of a new
+                  generation who have
+                  never heard it. 
+                   
+                    
+                  
+                </p>
+                <closer>
+                    <salute>
+                        With Love from William 
+                        
+                        I wish you would put "The
+                        Village in the Jungle" in the 
+                        New Phoneix Library.
+                    </salute>
+                    <signed> </signed> 
+                    <seg>
+                       
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

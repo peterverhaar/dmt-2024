@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_2750_542_11">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName> E. McKnight Kauffer </persName> to <persName> Leonard Woolf</persName>, <date when= "1935-04-05"> 5th April, 1935 </date>: 
+                    machine-readable transcription</title>
+                <author>
+                    E. mcKnight Kauffer
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Kayla Varga 
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Kayla Varga 
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Kayla Varga 
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                6 kBytes
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno type="shelfmark">MS_2750_542_11
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from  <persName> E. McKnight Kauffer </persName> to <persName> Leonard Woolf </persName>, <date when= "1935-04-05">5th April, 1935 </date>
+                    </title>
+                    <author>
+                        E. McKnight Kauffer
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Illustrator Edward McKnight Kauffer writes to Leonard Woolf concerning roughs drawn for a book cover. 
+                </p>
+            </div>
+            
+        </front> 
+        <body>
+            <div type="letter"> 
+        <opener>
+                    <dateline>
+                        <placeName>
+                         
+                        </placeName>
+                        <date when="1935-04-05">
+         
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName> E.McKnight Kauffer</persName>
+                        </addrLine>
+                        <addrLine>
+                            141 Swan Court Chelsea London s.w.3
+                        </addrLine>
+                    </address>
+                    <salute>
+                        My Dear Leonard 
+                    </salute>
+                </opener>
+                <p>
+                   I am enclosing two very rough
+                   "roughs" to your cover design. "A" design 
+                   based on the mark enclosed.Perhaps 
+                   these are too vulgar - perhaps too restrcited
+                   in synbolism - I think however that,
+                   they should not be too tentative in suggestion
+                   but bold and different. I can do a photo-
+                   montage if you prefer it. but these 
+                   roughs strike me as being different and to the point. If you decide, I can
+                   finish the design in a day or two. 
+                   
+                    
+                  
+                </p>
+                <closer>
+                    <salute>
+                        All my best wishes, 
+                        sincerely yours
+                    </salute>
+                    <signed>E. McKnight Kauffer</signed> 
+                    <seg>
+                       
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
