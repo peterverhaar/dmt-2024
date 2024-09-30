@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="EMFO_19240708">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q189119_19240708">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -42,7 +42,7 @@
                     <addrLine>2300 RA Leiden</addrLine>
                 </address>
                 <idno>
-                    EMFO_19240708
+                    Q189119_19240708
                 </idno>
                 <availability>
                     <p>Publicly accessible </p>
