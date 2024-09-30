@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_2750_C_21_4_107">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Donald Brace to Leonard Woolf, (29/06/1936) (copy)</title>
+                <author>
+                    Donald Clifford Brace
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Benedetta Siviero
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Benedetta Siviero
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Benedetta Siviero
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                7 kBytes
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    DBRA_19360629
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName key="Q5294054">Donald Brace</persName>  to <persName key="Q703935">Leonard Woolf</persName>, <date when="1936-06-29"> (29/06/1936) </date>  (copy)
+                    </title>
+                    <author>
+                        Donald Clifford Brace
+                    </author>
+                    <idno type="callNo">
+                        MS_2750_C_21_4_107
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Donald Brace discusses ta a new tax law in the States that will be in effect on July 2 will require the Company to withhold, for income tax, 10% of royalty payments to non-resident aliens instead of the current 4%. For Virginia Woolf's new novel contract, the Company will pay an advance $1000 on publication, and to use the old rate Brace plans to send a $1920 check. The check represents a $2000 payment as a general advance, with the $80 from the current tax rate. He asks about Virginia Woolf's health.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            Harcourt, Brace and Company, Inc. <lb/>
+                            Publishers, <lb/>
+                            383 Madison Avenue, <lb/>
+                            New York. <lb/>
+                        </placeName>
+                        <date when="1936-06-29">
+                            June 29, 1936.
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                           <persName>Leonard Woolf</persName> 
+                        </addrLine>
+                        <addrLine>
+                            Leonard Woolf, Esq., <lb/>
+                            52 Tavistock Square,<lb/> 
+                            London, W.C.l.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Mr. Wolf:
+                    </salute>
+                </opener>
+                <p>
+                    A new tax law has just been passed by Congress<lb/> 
+                    under which we shall be required after July second to with-<lb/>
+                    hold for income tax 10% on all payments of royalty to non-<lb/>
+                    resident aliens instead of the current rate of 4%. According<lb/>
+                    to the contract for Mrs. Woolf's new novel, we shall be paying <lb/>
+                    an advance of $1000 on publication, but in order to take<lb/>
+                    advantage of the old rate, I am sending now a check for $1920,<lb/>
+                    representing a payment of $2000 as a general advance, less <lb/>
+                    $80 for the tax at the current 4%. You may as well<lb/>
+                    have the advantage of this saving.                   
+                </p>
+                <p> It is some time since you wrote that Mrs. Woolf<lb/>
+                    had become tired out by her work on the novel and had had to<lb/>
+                    put aside the proofs. I hope she has recovered long before<lb/> 
+                    this, but I should greatly appreciate it if you would let me<lb/>
+                    have some word.
+                </p>
+                <closer>
+                    <salute>
+                        With kindest regards, <lb/>
+                        Yours sincerely,                      
+                    </salute>
+                    <signed>Donald Brace.</signed> 
+                    <seg>
+                        DCB: CMc.
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

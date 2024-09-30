@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_2750_487_13">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Edward Thompson to Leonard Woolf, 19/09/1925: A
+                    machine-readable transcription</title>
+                <author>
+                    Edward Thompson
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Benedetta Siviero
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Benedetta Siviero
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Benedetta Siviero
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                8 kBytes
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    ETHO_19250919
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName type="Q434160">Edward Thompson</persName>  to <persName key="Q703935">Leonard Woolf</persName>, <date when="1925-09-19"> 19/09/1925 </date> : A
+                        machine-readable transcription
+                    </title>
+                    <author>
+                        Edward Thompson
+                    </author>
+                    <idno type="callNo">
+                        MS_2750_487_13
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Edward Thompson continues the discussion about possible reviewers for The Other Side of the Medal. Pen annotations.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            Aylworth <lb/>
+                            Summerland Avenue <lb/>
+                            Minehead
+                        </placeName>
+                        <date when="1925-09-19">
+                           19.9.25
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                           <persName>Edward Thompson</persName> 
+                        </addrLine>
+                        <addrLine>
+                            Aylworth  <lb/>
+                            Summerland Avenue <lb/> 
+                            Minehead
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Mr. Wolf,
+                    </salute>
+                </opener>
+                <p>
+                    Thanks for your letter.  The religious people<lb/> 
+                    ought to bother about the matter, for every reason. Lofthouse &amp; <lb/>
+                    Beales have already said they will do all they can - &amp; Lofthouse <lb/>
+                    counts for a lot, as he should do. Streeter &amp; Seibie I will see<lb/>
+                    when I go back to Oxford. I dont think it worth while wasting a <lb/>
+                    single review-copy on a religious paper, direct.<lb/>
+                    Sasson, Graves, Forster are interesred in<lb/>
+                    the matter, as you know; but they are all more in touch with you<lb/>
+                    than with me. H.M.Tomilnson will certainly be interested, if he<lb/>
+                    happens to be in the Westmr.office when the book comes in.<lb/>
+                    The Theosophists I dont know; but Mrs.<lb/>
+                    Ransom, Letchworth, Herts, seems to run their English lit-<lb/>
+                    erary side, and she used to - probably still does - edit a paper<lb/> 
+                    India ( or New India- I forget the title). They have a <choice><abbr>v.</abbr><expan>very</expan></choice> aggress-<lb/>
+                    ive colony at Letchmorth. Cousins, the Irish poet, &amp; esp.his wife<lb/>
+                    Margaret Cousins, still runs their Indian work at Adyar, Madras, I<lb/>
+                    belive. <add type="handwrite">I have met them, fore years ago, at Tajore's school, Santiniketan. Mrs. <lb/>
+                    Cousins writes a lot on Indian matters.</add> <lb/>
+                    There is nothing to answer in this note.
+                </p>
+                <closer>
+                    <salute>
+                        Yours sincerely                        
+                    </salute>
+                    <signed>Thompson Thompson</signed> 
+                    <seg type="handwritten">
+                        Shorter <choice><abbr>j</abbr><expan>journal</expan></choice> the Sphere is <choice><abbr>v.</abbr><expan>very</expan></choice> friendly towards me <lb/>
+                        personally; but I have no notion what his political views are - probably <lb/>
+                        strongly tory. The same remarks hold <choice><abbr>j</abbr><expan>journalist</expan></choice> Adcock, <choice><abbr>j</abbr><expan>journal</expan></choice> the Bookman. 
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
