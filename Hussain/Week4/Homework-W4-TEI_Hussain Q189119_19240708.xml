@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q189119_19240708">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="Q189119">E. M. Forster</persName> to <persName key="Q703935">Leonard Woolf</persName>, 08-07-1924: A
+                    machine-readable transcription</title>
+                <author>
+                    <persName key="Q189119">E. M. Forster</persName>
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Z. H. Hussain
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Z. H. Hussain
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Z. H. Hussain
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                5,72 kB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q189119_19240708
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName key="Q189119">E. M. Forster</persName> to <persName key="Q703935">Leonard Woolf</persName>, 08-07-1924
+                    </title>
+                    <author>
+                        <persName key="Q189119">E. M. Forster</persName>
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/92/10
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Letter from <persName key="Q189119">E. M. Forster</persName> to <persName key="Q703935">Leonard Woolf</persName>, detailing Forster's insight on a depiction of a Calcutta auctioneer who was painted by <persName key="Q702272">Johan Zoffany</persName> as Judas Iscariot, with an added side note.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            {Station Gomshall S.E.R. West Hackhurst, Abinger Hammer, Dorking.}
+                        </placeName>
+                        <date when="1924-07-08">
+                            8-7-24
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                        </addrLine>
+                        <addrLine>
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear <persName key="Q703935">Leonard</persName>,
+                    </salute>
+                </opener>
+                <p>
+                    Can you deal with this<lb/>
+					preposterous yet touching letter?<lb/>
+					I funk it.<lb/>
+                    <persName>Tulloh</persName> (according to <persName>Firminger</persName>)<lb/>
+					was a <placeName>Calcutta</placeName> auctioneer whose<lb/>
+					portrait was painted by <persName key="Q702272">Zoffany</persName><lb/> 
+                    as Judas Iscariot. There is<lb/>
+					probably a good deal to find out.<lb/> 
+                    The answer to the last paragraph<lb/> 
+					is that 1817 and 1908 are the<pb/> 
+					same, except for small variations<lb/> 
+					in the text.
+                </p>
+                <closer>
+                    <salute>
+                    </salute>
+                    <signed>
+						M.
+					</signed>
+                    <seg>
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
