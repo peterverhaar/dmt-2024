@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_2750_217_3_5">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName> Curtis Brown LTD </persName> to <persName> The Hogarth Press </persName>, <date> 20th March, 1930</date>: A
+                    machine-readable transcription</title>
+                <author>
+                    Curtis Brown LTD
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Carla Campos Casanova
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Carla Campos Casanova
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Carla Campos Casanova
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                6 kBytes
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno type="shelfmark">MS_2750_217_3_5
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Curtis Brown LTD to The Hogarth Press, 20th March, 1930
+                    </title>
+                    <author>
+                        Curtis Brown LTD
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Curtis Brown requests Death of My Aunt French rights on behalf of Fayard.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            London
+                        </placeName>
+                        <date when="1930-03-20">
+                            20th March, 1930
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <orgName> Curtis Brown LTD </orgName>
+                        </addrLine>
+                        <addrLine>
+                            6. HENRIeTTA STREET
+                            COVENT GARDEN,
+                            LONDON, W. C. 2.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Sirs:
+                    </salute>
+                </opener>
+                <p>
+                    We are very pleased to report that we
+                    have succeeded in interesting the well-known Paris publishers, 
+                    Fayara, in "DEATH OF MY AUNT" by C.B.Kitchin, 
+                    and they have agreed to pay the following terms for the
+                    volume rights: an advance of Frs.3000 payable on
+                    signature of the agreement, for the first 5000 copies,
+                    with a royalty of 6% on all copies sold from 5000 to
+                    8000, 8% on copies sold from 8000 to 10000 and 10%
+                    thereafter. They wish to reserve an option on the
+                    serial rights also. As the book is rather long for
+                    their edition they would like to know whether they might
+                    cut about twenty pages.
+                    These are, as you probably know, very
+                    favourable terms to obtain from France for a book of this description,
+                    and we hope, therefore, that you will be
+                    prepared to sign a contract on this basis.
+                </p>
+                <closer>
+                    <salute>
+                        Yours very truly,
+                    </salute>
+                    <signed>
+                        Jean W [unidentified last name]
+                    </signed>
+                    <seg>
+                        MANAGER 
+                        FOREIGN DEPARTMENT.
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_2750_410_047">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName>Audrey Heffill</persName> to <persName>Peggy Belsher</persName>, <date when= "1932-04-18">18th April, 1932 </date>: A
+                    machine-readable transcription</title>
+                <author>
+                    Audrey Heffill
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Carla Campos Casanova
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Carla Campos Casanova
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Carla Campos Casanova
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                6 kBytes
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno type="shelfmark">MS_2750_410_047
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from  <persName>Audrey Heffill</persName> to <persName>Peggy Belsher</persName>, <date when= "1932-04-18">18th April, 1932 </date>
+                    </title>
+                    <author>
+                        Audrey Heffill
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Secretary Audrey Heffil writes on behalf of Vita Sackville-West regarding royalty amounts requiring the information for income tax returns.
+                </p>
+            </div>
+            
+        </front> 
+        <body>
+            <div type="letter"> 
+        <opener>
+                    <dateline>
+                        <placeName>
+                         Sevenoaks, Kent.
+                        </placeName>
+                        <date when="1932-04-18">
+         
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName> Audrey Heffill</persName>
+                        </addrLine>
+                        <addrLine>
+                            Stone House, 
+                            Victoria Road,
+                            Sevenoaks.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Miss Belsher,
+                    </salute>
+                </opener>
+                <p>
+                    Would you be so kind as to let me know
+                    the dates on which the amounts making up
+                    advance royalties of &#xA3;800 on All Passion Spent
+                    were paid. I have only got two ammounts,
+                    viz. &#xA3;300 in May and &#xA3;300 in November, and as 
+                    Mrs. Nicolson is away from Long Barn I have
+                    no means of finding out, except through you,
+                    and I must know for Income Tax returns. I am 
+                    so sorry to worry you.
+                  
+                </p>
+                <closer>
+                    <salute>
+                        Your sincerely,
+                    </salute>
+                    <signed>Audrey Heffill</signed> 
+                    <seg>
+                        Secretary.
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
