@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q1282985_19510613b">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from William Plomer to Norah Smallwood, 13-06-1951: A
+                    machine-readable transcription</title>
+                <author>
+                    William Plomer
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                       Ricarda Frerick
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Ricarda Frerick
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Ricarda Frerick
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                7 kBytes
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q1282985_19510613b
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName key="Q1282985">William Plomer</persName> to <persName key="Q7050230">Norah Smallwood</persName>, <date when="1951-06-13">13-06-1951</date>
+                    </title>
+                    <author>
+                       William Plomer
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/348/38
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025 course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <!-- summary of contents -->
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            William Plomer writes to thank Mrs. Smallwood for sending him two copies of Sado. Plomer also mentions that John Morris of the BBC is interested in discussing the book in his overseas broadcasts and suggests that Morris be sent a review copy. Morris' private address is included in the letter.
+                        </placeName>
+                        <date when="YYYY-MM-DD">
+                            13 June .51
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName key="Q7050230">Mrs. Smallwood</persName> 
+                        </addrLine>
+                        <addrLine>
+                            29 Linden Gardens
+                        </addrLine>
+                        <addrLine>W2
+                        </addrLine>
+                    </address>
+                    <salute>
+                       Dear Mrs Smallwood,
+                    </salute>
+                </opener>
+                <p>
+                    Thank you for<lb/>
+                your letter &amp; for<lb/>
+                so kindly sending me<lb/>
+                two copies of <title>Sado</title>.<lb/>
+                I am looking forward<lb/>
+                to their arrival.<lb/>
+                    <persName key="Q6249481">John Morris</persName>, head<lb/>
+                of the Eastern dept<lb/>
+                in the <orgName key="Q9531">B.B.C.</orgName>, would<lb/>
+                like in due course to<pb/>
+                talk about the book<lb/> 
+                in his overseas<lb/>  
+                broadcasts, so perhaps<lb/> 
+                you might think it<lb/> 
+                worthwhile to send<lb/> 
+                him a review copy.<lb/> 
+                His private address<lb/>  
+                is <address>
+                    <addrLine><emph rend="underlined">46 Hornton Court,</emph></addrLine>
+                    <addrLine><emph rend="underlined">W.8.</emph></addrLine>
+                </address><lb/> 
+                </p>
+                <closer>
+                    <salute>
+                        Yours sincerely
+                    </salute>
+                    <signed/>
+                    <seg type="postscript"> 
+                        BBC European<lb/>
+                        BBC Home<lb/>
+                        have each been<lb/>
+                        sent a review copy<lb/>
+                        <unclear reason="bad handwriting" cert="low">Ml.</unclear> <date when="1951-06-13">13.6.51</date>
+                    </seg>
+                    <add place="top page 1" type="handwrting">MS 2750/348/38</add>
+                    <add place="top page 2" type="handwrting">MS 2750/348/38</add>
+                    <add place="below dateline"><unclear="bad handwriting" cert="medium">Comp.</unclear> <lb/>
+                    Date of Publis.
+                        </add>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

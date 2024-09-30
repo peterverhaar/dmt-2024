@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MAPP0011_19500203">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Aline Burch to E.B.C. Lucas, 03-02-1950 : A
+                    machine-readable transcription</title>
+                <author>
+                    Aline Burch
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                       Ricarda Frerick
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Ricarda Frerick
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Ricarda Frerick
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+               6 kBytes
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    MAPP0011_19500203
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from<persName key="MAPP0011">Aline Burch</persName> to E.B.C. Lucas from the <orgName key="Q1623362">The Hogarth Press Ltd.</orgName>, <date when="1950-02-03">03-02-1950</date>
+                    </title>
+                    <author>
+                      Aline Burch
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/451/7
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025 course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Aline Burch apologises for the delay in replying to Mrs. Lucas's letter of 21 January and explains that Mr. Woolf has recently had an operation and is still in recovery. She will show him the letter as soon as he is able to handle correspondence again.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            <!-- place name as in letter -->
+                        </placeName>
+                        <date when="YYYY-MM-DD">
+                            3rd February, 1950. 
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <orgName key="Q1623362">The Hogarth Press Ltd.</orgName> 
+                        </addrLine>
+                        <addrLine>
+                            <!-- recipient's address (add <addrLine>s as required) -->
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Mrs. Lucas, 
+                    </salute>
+                </opener>
+                <p>
+                    I am extremely sorry that your<lb/> 
+                    letter of <date when="1950-01-21">January 21</date> has not been<lb/>
+                    answered before.   Unfortunately,<lb/>
+                    however, <persName key="Q703935">Mr. Woolf</persName>has had to go into<lb/>
+                    a nursing home for an operation so<lb/>
+                    I have not been able to show him your<lb/>
+                    letter.   I am glad to say he is<lb/> 
+                    now making steady progress and I will<lb/>
+                    put your letter before him as soon as<lb/> 
+                    he is able to deal with correspondence.<lb/>
+                    It will probably be a month or so before<lb/>
+                    he is able to come into the office.<lb/> 
+                </p>
+                <closer>
+                    <salute>
+                       Yours sincerely,
+                    </salute>
+                    <signed/>
+                    <seg>
+                        <!-- post scriptum -->
+                    </seg>
+                    <add place="above opener" type="handwrting">MS 2750/4517</add>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+  
