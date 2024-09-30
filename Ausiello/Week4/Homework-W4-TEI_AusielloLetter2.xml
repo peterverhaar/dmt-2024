@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CWGP_19540506">
+   
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Chatto and Windus to the Groove Press, 4th June 1952: A
+                    machine-readable transcription</title>
+                <author>
+                    Chatto and Windus
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Chiara Ausiello
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Chiara Ausiello
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Chiara Ausiello
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    CWGP_19540506
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Chatto and Windus to The Groove Press, 5th June 1954
+                    </title>
+                    <author>
+                        Chatto and Windus
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/348/52
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025
+                   Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025                   
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Piers Raymond informs Barney Rosset that they have no objections to the Grove Press handling Sado in the U.S., and would like to know if it is a bound edition, flat sheets, or special edition. Chatto and Windus adds that the Stendhal and the Proust cannot be imported to America, but the Hayward anthologies are available. Chatto and Windus will send respective copies.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            Chatto and Windus
+                        </placeName>
+                        <date when="1954-06-05">
+                           5 June 1954
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                           <persName> Barney Rosset, 
+                            </persName>
+                            <orgName key="ASYT">The Groove Press</orgName>
+                        </addrLine>
+                        <addrLine>
+                            58 West 9th Street, <lb/>
+New York City 11,<lb/>
+N.Y., U.S.A.<lb/>
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Mr. Rosset,
+                    </salute>
+                </opener>
+                <p>
+                 
+Thank you for your letters of the 27th and 28th May. I was very intrested <lb/>
+in your reflections on the Zodiac Books. We ourselves have Always found that <lb/>
+the Trollope titles proved the most oopular largely because our market, as yours, <lb/>
+is fairly well saturated with Jane Austen. I was very intrested too in your <lb/>
+adverising piece. <lb/>
+<lb/>
+With regard to your second letter, there seems to be no objection to Handling <lb/>
+SADO in the States. I am not quite clear whether you would like to import bound <lb/>
+copies or our actual edition. We have plenty of sheets of this title and could <lb/>
+let you have what you required, but perhaps you could let me know whether you <lb/>
+would like our edition bound, flat sheets, or a special edition for yourselves <lb/>
+with your own print on them. <lb/>
+<lb/>
+The Stendhal and the Proust are, I am afraid, in the hands of American <lb/>
+publishers and we know before we start that it would be hopeless to get permission <lb/>
+to import our editions. The Hayward anthologies are however available to the <lb/>
+States and the same remarks apply to these as to SADO. I am sending sample copies <lb/>
+of all three. If you would let me know the form in which you would like them, I <lb/>
+can then quote you a price. <lb/>
+<lb/>
+I am sending you two complete sets of Proust and the handbooks although we <lb/>
+are not supposed to send these books to American, but as I presume they are for <lb/>
+your personal use, I do not think the American publishers will mind. <lb/>
+
+                </p>
+                <closer>
+                    <salute>
+                        Yours sincerely,
+                    </salute>
+                    <signed/>
+                   
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

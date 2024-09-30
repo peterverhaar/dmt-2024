@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ABHP_19540216">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Aline Burch to The Hogarth Press, 16th February 1954: A
+                    machine-readable transcription</title>
+                <author>
+                    Aline Burch
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Chiara Ausiello
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                       Chiara Ausiello
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Chiara Ausiello
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    ABHP_19540216
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date> 2024 </date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Aline Burch to The Hogarth Press>, 16th February, 1954
+                    </title>
+                    <author>
+                        Aline Burch
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/567/119
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025
+                   Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    The Hogarth Press restates their approval of The National Committee for Recording for the Blind's request to record Orlando: A Biography and redirects them to Harcourt Brace and Company Inc. again for permission.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            <!-- place name as in letter -->
+                        </placeName>
+                        <date when="1954-02-16">
+                            16th February, 1954
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                         <orgName> The Hogarth Press Ltd.</orgName>
+                         <orgName>The Executive Director</orgName>
+                         <orgName>The National Committee for Recording for the Blind Inc.,</orgName>
+                        </addrLine>
+                        <addrLine>
+                            26 West Forty-Fourth Street,
+New York 26, N.Y.
+                        </addrLine>
+                    </address>
+                    <salute>
+                       Dear Sirs,
+                    </salute>
+                </opener>
+                <p>
+                    In reply to your request, dated <lb/>
+                    February 4, to record ORLANDO for the <lb/>
+                    use of the blind, I am sorry to see <lb/> 
+                    that you say that this is your third <lb/> 
+                    request. Your previous letter was <lb/> 
+                    passed to Mr. Leonard Woold, as he deals <lb/> 
+                    with requests for Mrs. Woolf's books, <lb/> 
+                    and I understood from him that he had <lb/> 
+                    written giving his permission, but saying <lb/>
+                    that you must also obtain permission <lb/>
+                    from the American publishers, Kessers, <lb/>
+                    Harcourt Brace of 383 Madison Avenue, <lb/> 
+                    New York. <lb/> 
+                    
+                </p>
+                <closer>
+                    <salute>
+                       Yours faithfully,
+                    </salute>
+                    <signed/>
+                    
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
