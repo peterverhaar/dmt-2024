@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q1623362_19470212">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Aline Burch, The Hogarth Press to Editorial Montañesa, 02-12-1947: A
+                    machine-readable transcription</title>
+                <author>
+                    Aline Burch, the Hogarth Press
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Miguel Reis
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Miguel Reis
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Miguel Reis
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                6 kB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q1623362_19470212
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024Q1623362Q1623362</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <orgName>Hogarth Press</orgName> to <orgName>Editorial Montanesa</orgName>, <date when="1947-12-02"> 02 December 1947</date>
+                    </title>
+                    <author>
+                        the Hogarth Press
+                    </author>
+                    <idno type="callNo">
+                        MS 2750/217_DEATH OF MY AUNT
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025 Digital Media Technologies course, Book and Digital Media Studies, Leiden University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                   This letter sent by Hogarth Press is an answer for Editorial Montanesa about the Spanish rights of Mr Kitchin's books
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            Madrid, Spain
+                        </placeName>
+                        <date when="1947-12-02">
+                            02 December 1947
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <orgName>Editorial Montanesa</orgName>
+                        </addrLine>
+                        <addrLine>
+                            Fernandes de la Rios 4,
+                        </addrLine>
+                        <addrLine>
+                            Madrid, Spain.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Sirs,
+                    </salute>
+                </opener>
+                <p>
+                    Thank you for your letter<lb/>
+                    24 November enquiring for the Spanish rights in Mr Kitchin's<lb/>
+                    books. We only hold the rights<lb/>
+                    in one of these &apos;Death of My Aunt&apos;<lb/>
+                    and the Spanish rights in this title<lb/>
+                    are already sold. For the rights<lb/>
+                    in his other books, you should apply<lb/>
+                    to Mr. Kitchin's agents, <unclear>Messrs</unclear>. Pearn<lb/>
+                    Pellinger &amp; Higham, Ltd., 39/40<lb/>
+                    Bedford Street, Strand, London, W.C.2.<lb/>
+                </p>
+                <closer>
+                    <salute>
+                        Yours faithfully,</lb>
+                    </salute>
+                    <seg>
+                        For the Hogarth Press Ltd.
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
