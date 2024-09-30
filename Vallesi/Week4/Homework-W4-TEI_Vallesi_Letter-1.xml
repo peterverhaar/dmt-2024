@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="Q1282985_19310223"
+<teiHeader>
+<fileDesc>
+    <titleStmt>
+        <title>letter from William Plomer to Leonard Woolf, 23 February 1931: a machine readable transcription</title>
+    </titleStmt>
+    <publicationStmt>
+        <idno>Q1282985_19310223</idno>
+    </publicationStmt>
+    <sourceDesc>
+        <bibl>
+            <title>Letter from <persName key="Q1282985">William Plomer</persName> to <persName key="Q703935">Leonard Woolf</persName>, <date when="1931-02-23">23 February 1931</date>
+            </title>
+        </bibl>
+    </sourceDesc>
+</fileDesc>
+    </teiHeader>
+<body>
+    <div type="letter">
+        <opener>
+            <dateline>
+                <placeName>Warwick</placeName>
+                <date when="1931-02-23">23 Feb 1931</date>
+            </dateline>
+        <address>
+            <addrLine><persName>Leonard Woolf</persName></addrLine>
+            <addrLine>Warwick St SWI</addrLine>
+            <addrLine>Warwick</addrLine>
+            </address>
+            <salute>Dear<persName key="Q703935">Leonard</persName></salute>
+    </opener>
+    <p>Since getting my <choice><abbr>MS</abbr><expan>manuscript</expan></choice> <lb/>
+    back from the typist I have come <lb/>
+    (not unaided) to the conclusion <lb/>
+<lb>that it is in many ways a <lb/>
+<lb>remarkably bad book. At the <lb/>
+<lb>same time, it has its virtues. I <lb/>
+<lb>propose, therefore, to set to work <lb/>
+<lb>at once and remake it. I have <lb/>
+<lb>every hope that it will be <lb/>
+<lb>ready in time for publication <lb/>
+<lb>in the autumn. In the <lb/>
+<lb>meanwhile, would you, I wonder, <lb/>
+<lb>feel at all inclined, as I am <lb/>
+in need of money, to make <pb/>
+    me an advance upon it?</p>
+        
+    <closer>
+        <salute>Yours</salute><lb/>
+            <signed>
+                <persName key="Q1282985">William</persName>
+            </signed>
+    <seg type="postscript">I fancy the present 170,000 words<lb/>
+    <lb>will boil down to half that</lb>
+    number.<lb/></seg>
+        </closer>
+    </div>
+</body>
+    </text>
+    </TEI>

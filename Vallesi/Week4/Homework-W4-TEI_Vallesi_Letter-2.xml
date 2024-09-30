@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="Q1623362_19511012"</TEI>
+<teiHeader>
+<fileDesc>
+    <titleStmt>
+        <title>letter from The Hogarth Press Ltd. to Friedich Michael, 12 October 1951: a machine readable transcription</title>
+    </titleStmt>
+    <publicationStmt>
+        <idno>Q1623362_19511012</idno>
+    </publicationStmt>
+    <sourceDesc>
+        <bibl>
+            <title>Letter from <orgName key="Q1623362">The Hogarth Press</orgName> to <persName>Friedich Michael</persName>, <date when="1951-10-12">12 October 1951</date>
+            </title>
+        </bibl>
+    </sourceDesc>
+</fileDesc>
+    </teiHeader>
+<body>
+    AB
+    <div type="letter">
+        <dateline>
+            <date when="1951-10-12">12th October, 1951</date>
+            </dateline>
+        <address>
+            <addrLine><persName>Friedich Michael</persName></addrLine>
+            <addrLine><orgName key="Q316015">Insel-Verlag</orgName></addrLine>
+            <addrLine>Karlstrasse 38</addrLine>
+            <addrLine>Weisbaden</addrLine>
+        </address>
+        <salute>Dear <choice><abbr>Dr.</abbr><expan>Doctor</expan></choice> Michael,</salute>
+
+<p>We have been asked by <choice><abbr>Dr.</abbr><expan>Doctor</expan></choice> <persName key="Q55675211">L.L. <lb/>
+Weltmann</persName> to let you have a copy of <lb/>
+    <title>SADO</title> by <persName key="Q1282985">William Plomer</persName> and I have <lb/>
+pleasure in enclosing a copy. <choice><abbr>Dr.</abbr><expan>Doctor</expan></choice> <lb/>
+    <persName key="Q55675211">Weltmann</persName> thinks that you would like <lb/>
+to consider this book with a view to <lb/>
+a German translation and that you might <lb/>
+    probably be interested in <choice><abbr>Mr.</abbr><expan>Mister</expan></choice> <persName key="Q1282985">Plomer</persName>'s <lb/>
+work as a whole. We very much hope <lb/>
+that you will be impressed by <title>SADO</title><lb/>
+and shall look forward to hearing <lb/>
+from you about it in due course.</p>
+        
+        <closer>
+            <salute>Yours sincerely,</salute>
+            <signed>for 
+                <orgName key="Q1623362">The Hogarth Press <choice><abbr>Ltd.</abbr><expan>limited</expan></choice></orgName>
+            </signed>.
+            
+            <choice><abbr>DCB</abbr><expan>Donald C. Brace</expan></choice>:CMc.
+        </closer>
+    </div>
+</body>
+</text>
+</TEI>
