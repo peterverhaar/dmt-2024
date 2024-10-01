@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CHOB_19240506">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Coralie Hobson to Leonard Woolf, 6 April 1924</title>
+                <author>Carolie Hobson</author> 
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt> 
+                    <resp> creation of the machine-readable version:</resp>
+                    <name>Julia E Blomberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup:</resp>
+                    <name>Julia E Blomberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations</resp>
+                    <name>Julia E Blomberg</name>
+                </respStmt>
+            </titleStmt>
+            <extent> () </extent>
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands</pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno> CHOB_19240304 </idno>
+                <availability>
+                    <p>Publicly accessible</p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>  Letter from <persName key="MAPP0023">Coralie Hobson</persName>
+                        to <persName key="Q703935">Leonard Woolf</persName>,<date when="1924-05-06">6 April 1924</date>
+                    </title>
+                    <author>Carlolie Hobson</author>
+                    <idno type="callNo">MS 2750/168/5</idno> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    Prepared by students of the 2024-2025 course, Book and Digital Media Studies, Leiden University
+                </p>
+            </projectDesc> 
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>feminine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="summary">
+                <p>Hobson provides a list of people to receive notices about In Our Town.
+                   Handwritten letter signed by Hobson
+                </p>
+            </div>
+        </front>
+   <body>
+       <div type="letter">
+           <opener>
+               <dateline>
+                   <placeName>unknown</placeName>
+                   <date when="1924-05-06">6 April 1924</date>
+               </dateline> 
+               <address>
+                 <addrLine><persName>Leonard Woolf</persName></addrLine>
+               </address>
+               <salute>
+                   Dear Mr<persName>Woolf</persName>
+               </salute>
+           </opener>
+        
+       <p>The following are the <lb/>
+        name and addresses of a few <lb/>
+        people to whom I think you <lb/>
+        might send notices. <lb/> </p>
+       
+       <p><persName>Mr Arthur Rowntree</persName><lb/>
+           <address><addrLine>Bootham school <lb/>
+               <placeName>York</placeName></addrLine></address><lb/></p>
+       
+       <p><persName>W.S. Rowntree esq.</persName><lb/>
+          <address><addrLine>Scarborough<lb/>
+              <placeName>York</placeName></addrLine></address><lb/></p>
+       
+       <p><persName>T.C. Christianson</persName><lb/>
+           <orgName>c/o Metropolitan Vickers<lb/>
+               Electrical co. ltd </orgName><lb/>
+            <address><addrLine>Trafford Park<lb/>
+                <placeName>Manchester</placeName></addrLine></address><lb/></p> 
+       
+       <p><persName>R. Helson</persName><pb/>
+          <address> <addrLine>32 Victoria st <lb/>
+              <placeName><choice><abbr>s.w.l.<expan>South West London</expan></abbr></choice></placeName></addrLine></address><lb/></p>
+                                                        
+       <p><persName>Mrs Blanche Smith</persName><lb/>
+           <orgName>c/o Manchester guardian</orgName><lb/>
+           <address><addrLine>Cross st<lb/>
+               <placeName>Manchester</placeName></addrLine></address><lb/></p>
+         
+       <p><persName>M.A. Spielman</persName><lb/>
+          <address><addrLine>29 Cambridge sq<lb/>
+              <placeName>Lo 2.</placeName></addrLine></address><lb/></p>
+      <closer>           
+       <salute>Yours Sincerely,</salute><lb/>
+       <signed>Coralie Hobson</signed> <lb/>  
+      </closer>
+       </div>
+   </body>
+   </text>   
+</TEI>

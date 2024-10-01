@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CHOB_19240304">
+  <teiHeader>
+      <fileDesc>
+          <titleStmt>
+              <title>Letter from Coralie Hobson to Leonard Woolf, 4 March 1924</title>
+              <author>Carolie Hobson</author> 
+              <principal>Prof. dr. Adriaan van der Weel</principal>
+              <respStmt> 
+                  <resp> creation of the machine-readable version:</resp>
+                  <name>Julia E Blomberg</name>
+              </respStmt>
+              <respStmt>
+                  <resp>Conversion to TEI-conformant markup:</resp>
+                  <name>Julia E Blomberg</name>
+              </respStmt>
+              <respStmt>
+                  <resp>Editorial annotations</resp>
+                  <name>Julia E Blomberg</name>
+              </respStmt>
+          </titleStmt>
+          <extent> () </extent>
+          <publicationStmt>
+              <distributor>Leiden University</distributor>
+              <pubPlace>Leiden, The Netherlands</pubPlace>
+              <address>
+                  <addrLine>P.O. Box 9515</addrLine>
+                  <addrLine>2300 RA Leiden</addrLine>
+              </address>
+              <idno> CHOB_19240304 </idno>
+              <availability>
+                  <p>Publicly accessible</p>
+              </availability>
+              <date>2024</date>
+          </publicationStmt>
+          <sourceDesc>
+              <bibl>
+                  <title>  Letter from <persName key="MAPP0023">Coralie Hobson</persName>
+                      to <persName key="Q703935">Leonard Woolf</persName>,<date when="1924-03-04">4 March 1924</date>
+                  </title>
+                  <author>Carlolie Hobson</author>
+                  <idno type="callNo">MS 2750/168/12</idno> 
+              </bibl>
+          </sourceDesc>
+         </fileDesc>
+  <encodingDesc>
+     <projectDesc>
+         <p>
+             Prepared by students of the 2024-2025 course, Book and Digital Media Studies, Leiden University
+         </p>
+     </projectDesc> 
+      <editorialDecl>
+          <p/>
+      </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+      <langUsage>
+          <language ident="eng">English</language>
+      </langUsage>
+      <textClass>
+          <keywords scheme="http://classificationweb.net">
+              <term>Correspondence</term>
+          </keywords>
+      </textClass>
+      <textClass>
+          <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+              <term>nonfiction</term>
+              <term>prose</term>
+              <term>feminine</term>
+          </keywords>
+      </textClass>
+  </profileDesc>
+  </teiHeader>
+    <text>
+        <front>
+            <div type="summary">
+                <p>Hobson writes to confirm that she would like The Hogarth Press to publish her book and also suggests the title: 'Smoke Rings'
+                   Handwritten letter signed by Hobson
+                </p>
+            </div>
+        </front>
+    <body>
+        <div type="letter">
+            <opener>
+                <dateline>
+                <placeName><choice><abbr>w.e.l.<expan>West East London</expan></abbr></choice></placeName>
+                    <date when="1924-03-04">March 4 24</date>
+                </dateline>
+                <address>
+                    <addrLine><persName>Leonard Woolf</persName></addrLine>
+                    <addrLine> 56 Cartwright Gardens</addrLine>
+                </address>
+                <salute>Dear sir,</salute>
+            </opener>
+        <p>
+            I thank you for your letter of the
+            <lb/>
+            1st month and would confirm that I
+            <lb/>
+            would like you to publish the book for
+            <lb/>
+            me on the terms which you support:
+            <lb/>
+        </p>
+        <p>
+            I take it therefore that you will
+            <lb/>
+            now prepare a formal entrant which I
+            <lb/>
+            shall be glad to recieve at your convenience.
+            <lb/>
+        </p>
+        <p>
+            I also thank you for your specimen <gap reason="illegible" extent="1"/>
+            <lb/>
+            which appears to me to be satisfactory,
+            <lb/>
+            and which I now return
+            <lb/>
+        </p>
+        <p>
+            I suggest as a little fun little book <lb/>
+            "Smoke Rings" <lb/>
+        </p>
+        <closer>
+        <salute>Yours faithfully,</salute>
+        <signed>Coralie Hobson</signed>
+        </closer>
+        </div>
+    </body>
+    </text>
+</TEI>
