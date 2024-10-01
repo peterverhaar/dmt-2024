@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q731146_19541212">
+   
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Edward Upward to Miss Hepworth, 19451212: A
+                    machine-readable transcription</title>
+                <author>
+                    Edward Upward
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Nikki van Balkom                   </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Nikki van Balkom
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Nikki van Balkom
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                7KB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q731146_19541212
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Edward Upward to Miss Hepworth, 19451212
+                    </title>
+                    <author>
+                     Edward Upward  
+                    </author>
+                    <idno type="
+                        MS2750/507/3/19">
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025 Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Edward Upward mentions that he is sending his copy of the Crown edition of Journey to The Border to L&#xE9;on Perrin of Avignon who thinks of translating the book abnd wishes to know about the copyright. 
+                    Upward asks whether he can have the permission of the Hogarth Press to give the go ahead to give the necessary information before Perrin's son is returning to France on the 20th of December.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            Dulwich S.E.21
+                        </placeName>
+                        <date when="1945-12-12">
+                           12th Dec &apos;45
+                        </date>
+                    </dateline>
+                  
+                    <salute>
+                       Dear Miss Hepworth,
+                    </salute>
+                </opener>
+                <p>Thank you for sending back <lb/> 
+                    The Postal Order. I am sorry I misunderstood the Account you <lb/> 
+                    sent me.
+                </p>
+                <p>
+                I am sending my copy of the Crown edition <lb/>
+                of <title>Journey to The Border</title> to <persName>L&#xE9;on Perrin of Avignon</persName> <lb/>
+                who is thinking of translating it for <title>&apos;Confluences&apos;</title>. <lb/>
+                He wants to know details about copyright. I should <lb/>
+                be glad if you could let me have these and also if <lb/>
+                you would let me know whether I have the permission <lb/>
+                of <orgName>The Hogarth Press</orgName> to tell him to go ahead with the <lb/>
+                translation if he wishes to do so. His son whom I have <lb/>
+                met in <placeName>London</placeName> is returning to <placeName>France</placeName> next <date when="1945-12-20">Thursday <lb/>
+                Dec 20th</date> and I should like to have the necessary <lb/>
+                information before then.</p>
+                
+                <closer>
+                    <salute>
+                        Yours sincerely,
+                    </salute>
+                    <signed>Edward Upward</signed>
+                    <address>
+                        <addrLine>
+                            <persName>Edward Upward</persName>
+                        </addrLine>
+                       <addrLine>154 Turney Rd</addrLine>
+                    </address>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

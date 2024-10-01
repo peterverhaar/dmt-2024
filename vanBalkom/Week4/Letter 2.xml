@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q731146_19371117 ">
+   
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Edward Upward to Mr Woolf, 19371117: A
+                    machine-readable transcription</title>
+                <author>
+                Edward Upward
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                    Nikki van Balkom
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                    Nikki van Balkom
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                    Nikki van Balkom
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                6KB
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                Q731146_19371117
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2024</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Edward Upward to Mr Woolf, 19371117
+                    </title>
+                    <author>
+                    Edward Upward
+                    </author>
+                    <idno type="MS2750/507/3/5">
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2024-2025 Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                 In this letter Edward Upward discusses alternative titles for his new book, The Borderline, with his publisher Mr Leonard Woolf. 
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                         Streatham S.W.16
+                        </placeName>
+                        <date when="1937-11-17">
+                         Nov 17th 1937
+                        </date>
+                    </dateline>
+                    <salute>
+                    Dear Mr Woolf,
+                    </salute>
+                </opener>
+                <p>
+                 I am sorry for my delay <lb/>
+                 in answering your last letter. I have been <lb/>
+                 trying to think of another title for <title>The Borderline</title> <lb/>
+                 and I have not yet discovered anything really <lb/>
+                 satisfactory. The best I can suggest is <title>&apos;Journey <lb/> 
+                 to the Border&apos;</title>, or if that is too near to the original <lb/>
+                 title perhaps <title>&apos;Descent from the Race course&apos;</title> would <lb/>
+                 do-though I don&apos;t very much like it. <lb/>
+                </p>
+                <p>I have not had a free evening for some time <lb/>
+                and have not yet made the necessary corrections <lb/>
+                in the typescript, but I will do so to-morrow and <lb/>
+                will post the typescript on <date when="1937-11-19">Friday.</date></p>
+                <closer>
+                    <salute>
+                    Yours sincerely,
+                    </salute>
+                    <signed>Edward Upward</signed>
+                    <address>
+                        <addrLine>
+                            <persName>Edward Upward</persName>
+                        </addrLine>
+                       <addrLine>39, Woodleigh Gardens</addrLine>
+                    </address>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
