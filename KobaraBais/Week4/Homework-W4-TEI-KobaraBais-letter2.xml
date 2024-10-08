@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
-    <!-- replace xxxxxxxxxx with file id -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q5294054_19280802">
+ 
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                <title>Letter from <persName key= "Q5294054">Donald C. Brace</persName> to <persName key= "Q703935">Leonard Woolf</persName>, <date>when="1928-08-02">August 2, 1928</date>: A
                     machine-readable transcription</title>
-                <author>
-                    <!-- sender -->
+                <author><persName key= "Q5294054">Donald C. Brace</persName>
                 </author>
+              
+                    
+                
                 <principal>Prof. dr. Adriaan van der Weel</principal>
                 <respStmt>
                     <resp>Creation of machine-readable version: </resp>
-                    <name>
-                        <!-- your name -->
+                    <name>Denise Nunes Kobara Bais
+                       
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>Conversion to TEI-conformant markup: </resp>
                     <name>
-                        <!-- your name -->
+                        Denise Nunes Kobara Bais
                     </name>
                 </respStmt>
                 <respStmt>
                     <resp>Editorial annotations: </resp>
                     <name>
-                        <!-- your name -->
+                        Denise Nunes Kobara Bais
                     </name>
                 </respStmt>
             </titleStmt>
-            <extent>
-                <!-- file size in kBytes -->
-            </extent>
+            <extent>7kB</extent>
 
 
             <publicationStmt>
@@ -43,32 +43,30 @@
                     <addrLine>2300 RA Leiden</addrLine>
                 </address>
                 <idno>
-                    <!-- file ID -->
+                    Q5294054_19280802
                 </idno>
                 <availability>
                     <p>Publicly accessible </p>
                 </availability>
-                <date><!-- current year --></date>
+                <date>2024</date>
             </publicationStmt>
 
 
             <sourceDesc>
                 <bibl>
-                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    <title>Letter from  <persName key= "Q5294054">Donald C. Brace </persName>to  <persName key= "Q703935">Leonard Woolf</persName>,<date>when="1928-08-02">August 2, 1928</date>
                     </title>
                     <author>
-                        <!-- sender -->
+                        <persName key= "Q5294054">Donald C. Brace </persName>
                     </author>
-                    <idno type="callNo">
-                        <!-- library callnumber -->
+                    <idno type="callNo"> MS_2750_C_21_4_14
                     </idno>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
-                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                <p>Prepared by students of the 2024-2025 course, Book and Digital Media Studies, Leiden
                     University</p>
             </projectDesc>
             <editorialDecl>
@@ -77,7 +75,7 @@
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="dut">Dutch</language>
+                <language ident="eng">English</language>
             </langUsage>
             <textClass>
                 <keywords scheme="http://classificationweb.net">
@@ -99,12 +97,17 @@
         <front>
             <div type="summary">
                 <p>
-                  About Orlando's cover, proofreading some of the pages of the novel and settled date for its publication. Inquiry about The Literary Guild.
+                  In regards to Orlando's cover, proofreading some of the pages of the novel, settled date for its publication and response about The Literary Guild inquiry.
                 </p>
             </div>
         </front>
         <body>
             <div type="letter">
+                <note>
+                    <p>
+                        This is a typewritten copy of the correspondence.
+                    </p>
+                </note>
                 <opener>
                     <dateline>
                         <placeName>
@@ -115,8 +118,8 @@
                     </dateline>
                     <address>
                         <addrLine>
-                            <persName>Leonard Woolf</persName>, Esq.,
-                            <orgName>The Hogarth Press</orgName>
+                            <persName key= "Q703935">Leonard Woolf</persName>, Esq.,
+                            <orgName key= "Q1623362">The Hogarth Press</orgName>
                         </addrLine>
                         <addrLine>52 Tavistock Square</addrLine>
                             <addrLine>London, W.C.l.</addrLine>   
@@ -140,15 +143,15 @@
                     <p>The date of publication we consider settled for 
                October 11th.</p>
                  <lb/>   
-                    <p>I also have from Mrs. Woolf the revised proofs covering
+                    <p>I also have from <persName key= "Q40909">Mrs. Woolf</persName> the revised proofs covering
                page 269 and the Index.</p>
                   <lb/>  
-                <p>Perhaps you will be wondering whether <orgName key="Q6647599">The Literary
+                    <p>Perhaps you will be wondering whether <orgName key="Q6647599">The Literary
                Guild</orgName> has reached any decision. You will remember that I 
-               cabled you suggesting your showing the book to Mr. Van Doren
+               cabled you suggesting your showing the book to <persName key= "Q5039991">Mr. Van Doren</persName>
                while he was in London. Although he has not yet returned, I
                understand that he saw you and read the book. We have been
-               able to let <persName>Mrs. Van Doren </persName>read it here. We shall not get
+               able to let <persName key= "Q16004119">Mrs. Van Doren </persName>read it here. We shall not get
                a final decision from the Guild until the selecting committee
                is together, which I understand will not be until the latter
                part of this month. I expect you know in a general way
@@ -160,7 +163,7 @@
                     <lb/>
                     <signed>Donald C. Brace.</signed>
                     <address>
-                        <addrLine><orgName>Hartcourt, Brace and Company, Inc.</orgName></addrLine>
+                        <addrLine><orgName key= "Q5654997">Harcourt, Brace and Company, Inc.</orgName></addrLine>
                         <addrLine><orgName>Publishers,</orgName></addrLine>
                         <addrLine>383 Madison Avenue,</addrLine>
                         <addrLine>New York</addrLine>
