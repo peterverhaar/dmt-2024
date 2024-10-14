@@ -1,0 +1,33 @@
+    Homework - Exercise 3
+    
+    ENTITY: [BORROWER]
+    ATTRIBUTES:
+    [Borrower_id]
+    [First name]
+    [Last name]
+    [Date borrowed]
+    [Date returned]
+    [Book FK, connected to table [BOOK] ]
+    
+    ENTITY: [BOOK]
+    ATTRIBUTES:
+    [Book_id]
+    [Title]
+    [Place published]
+    [Publisher]
+    [Year published]
+    [Author FK, connected to table [AUTHOR] ]
+    
+    ENTITY: [AUTHOR]
+    ATTRIBUTES:
+    [Author_id]
+    [First name]
+    [Last name]
+    [Place of birth]
+    [Place of death]
+    [Date of birth]
+    [Date of death]
+    [Book FK, connected to table [BOOK] ]
+    
+    
+ 
