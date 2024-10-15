@@ -1,0 +1,35 @@
+DMT Excercise 3
+I have made the database design as follows, because the same identifier can be used for author and loaner in this way. This also allows for a book to be described separately, so that it can be entered using its B_ID, which makes it easier to enter data (+ less chance of mistakes made in the entering of data).
+ENTITIY: Person
+ATTRIBUTES:
+P_ID (PK)
+Honorific
+First_name
+Last_name
+Place_of_birth
+Country_of_birth
+Day_of_birth
+Month_of_birth
+Year_of_birth
+Place_of_death
+Country_of_death
+Day_of_death
+Month_of_death
+Year_of_death
+ENTITY: Book
+ATTRIBUTES
+B_ID (PK)
+Title
+Subtitle
+Place_of_publication
+Publisher
+Year_of_publication
+ENTITY: Loan
+ATTRIBUTES:
+Borrower (P_ID FK connected to Person)
+Book (B_ID FK connected to Book)
+Date_borrowed
+Date_returned
+ENTITY: Visitor
+P_ID (FK connected to Person)
+Date_of_visit
