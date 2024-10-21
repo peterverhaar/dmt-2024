@@ -1,0 +1,83 @@
+Homework for week 7- question 15-20 SQL
+
+15- SELECT YEAR, COUNT(SOLD)
+FROM BOOK
+GROUP BY YEAR
+HAVING COUNT(*)
+But the correct answer was only, without "HAVING COUNT(*):
+SELECT YEAR , COUNT(*)
+FROM BOOK
+GROUP BY YEAR
+
+
+16- This one was incorrect, but the answer is 
+SELECT DESCRIPTION, AVG(SOLD)
+FROM BOOK
+LEFT JOIN GENRE
+ON GENRE=GENRE_ID
+GROUP BY DESCRIPTION
+
+I did:
+SELECT DESCRIPTION, AVG(SOLD)
+FROM GENRE
+LEFT JOIN BOOK
+ON GENRE=DESCRIPTION
+
+17-Also incorrect- I did:
+SELECT AUTHOR, SUM(SOLD)
+FROM BOOK
+LEFT JOIN AUTHOR
+ON AUTHOR=AUTHOR_ID
+GROUP BY AUTHOR
+
+Correct answer was:
+SELECT FIRST_NAME , LAST_NAME , SUM( SOLD )
+FROM BOOK
+LEFT JOIN AUTHOR
+ON AUTHOR = AUTHOR_ID
+GROUP BY AUTHOR
+
+18- I did:
+SELECT FIRST_NAME, LAST_NAME,  COUNT(SOLD)
+FROM BOOK
+LEFT JOIN AUTHOR
+ON AUTHOR=AUTHOR_ID
+But I forgot to add authors, not only one. It was incorrect too. This one I really missed a lot of commands.
+Correct answer was:
+SELECT AUTHOR, LAST_NAME , FIRST_NAME , COUNT(*)
+FROM AUTHOR
+LEFT JOIN BOOK
+ON AUTHOR = AUTHOR_ID
+GROUP BY AUTHOR
+HAVING COUNT(*) > 1
+
+19- I did:
+SELECT PUBLISHER, COUNT(*)
+FROM BOOK
+LEFT JOIN PUBLISHER
+ON PUBLISHER = PUBL_ID
+GROUP BY PUBLISHER
+HAVING COUNT(*) > 3
+But I did not get the names of the publishers in the table. It was incorrect too.
+Correct answer was:
+SELECT NAME , COUNT(*)
+FROM BOOK
+LEFT JOIN PUBLISHER
+ON PUBLISHER = PUBL_ID
+GROUP BY NAME
+HAVING COUNT(*) > 3
+
+20- I did:
+SELECT DESCRIPTION, MAX(SOLD)
+FROM BOOK
+LEFT JOIN GENRE
+ON GENRE=GENRE_ID
+GROUP BY DESCRIPTION
+I used the correct answer from question 16 to help me out. But missed information again. The correct answer is:
+SELECT DESCRIPTION, MAX(SOLD) AS 'HIGHEST_SALES'
+FROM BOOK
+LEFT JOIN GENRE
+ON GENRE = GENRE_ID
+GROUP BY DESCRIPTION
+I did not know we can use "as" to give a new name to a column.
+Note to myself: FROM...LEFT JOIN... ON... =... syntax gives more accurate, reliable results when combinig 2 tables than the use of "WHERE".
