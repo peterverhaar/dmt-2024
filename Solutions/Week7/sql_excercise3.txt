@@ -1,0 +1,52 @@
+
+1.	Create a full list of all the countries which have participated in the PISA survey of 2022. 
+SELECT DISTINCT country_code, country_name
+FROM performance
+LEFT JOIN oecd_country
+ON country = country_code
+
+2.	What was the OECD average in 2022? 
+SELECT AVG(reading_total)
+FROM performance
+LEFT JOIN oecd_country
+ON country = country_code
+WHERE year = 2022
+
+3.	What were the OECD averages per continent in 2022? [Tip: group the scores by continent and calculate the average scores for each continent.] 
+
+SELECT AVG(reading_total)
+FROM performance
+LEFT JOIN oecd_country
+ON country = country_code
+WHERE year = 2022
+GROUP BY continent
+
+4.	For the various surveys that have been conducted over the years, create a list of all the OECD averages. Has there been a general increase or a decline? Show these averages in a bar chart as well. 
+
+SELECT year, AVG(reading_total)
+SELECT year, AVG(reading_total)
+FROM performance
+LEFT JOIN oecd_country
+ON country = country_code
+GROUP BY year
+ORDER BY year
+
+5.	How have the PISA scores for reading skills developed chronologically for students in the Netherlands? 
+
+SELECT year, reading_total
+FROM performance
+LEFT JOIN oecd_country
+ON country = country_code
+WHERE country_name = 'Netherlands'
+ORDER BY year
+
+6.	Make a list of all the reading scores obtained in Europe in 2018. Which European country had the highest scores for reading in 2018? Which country had the lowest score? 
+
+SELECT country_name, reading_total
+FROM performance
+LEFT JOIN oecd_country
+ON country = country_code
+WHERE continent = 'Europe'
+AND year = 2018
+AND reading_total IS NOT NULL
+ORDER BY reading_total DESC
