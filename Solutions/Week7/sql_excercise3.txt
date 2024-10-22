@@ -1,11 +1,13 @@
 
 1.	Create a full list of all the countries which have participated in the PISA survey of 2022. 
+
 SELECT DISTINCT country_code, country_name
 FROM performance
 LEFT JOIN oecd_country
 ON country = country_code
 
 2.	What was the OECD average in 2022? 
+
 SELECT AVG(reading_total)
 FROM performance
 LEFT JOIN oecd_country
