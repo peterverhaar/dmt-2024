@@ -1,0 +1,29 @@
+1.3.
+
+colour1 = 'blue'
+colour2 = 'yellow'
+swap = colour1
+colour1 = colour2
+colour2 = swap
+print(colour1)
+print(colour2)
+
+2.3.
+
+a = 10
+b = 54
+c = 33
+avg = (a + b + c) / 3
+print(avg)
+
+2.4.
+
+hour = 60 * 60
+day = 24 * hour
+week = day * 7
+print(f'Seven days last {week} seconds.')
+
+2.7.
+
+nr_weeks = 4
+print( f"Number of days in 4 weeks: {nr_weeks*7}" )
