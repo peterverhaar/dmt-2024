@@ -1,0 +1,58 @@
+3.1
+year = 1879
+print(f"Albert Einstein was born in {year}"
+
+3.4
+first = 'Vladimir'
+last = 'Nabokov'
+full_name = first + " " + last
+print(full_name)
+
+4.3
+numbers = list(range(1, 101))
+cumulative_sum = sum(numbers)
+print(cumulative_sum)
+
+5.2
+colours = ['green','blue','red','orange','yellow']
+
+5.4
+first = [4, 9, 1, 17, 11, 26, 28, 54, 63] 
+second = [8, 9, 74, 21, 45, 11, 63, 28, 26]
+numbers_not_in_second = [4,1,17,54]
+print(numbers_not_in_second)
+
+6.3
+sonnet_116 = ["Let me not to the marriage of true minds",
+    "Admit impediments. Love is not love",
+    "Which alters when it alteration finds,",
+    "Or bends with the remover to remove:",
+    "O no! it is an ever-fixed mark",
+    "That looks on tempests and is never shaken;",
+    "It is the star to every wandering bark,",
+    "Whose worth's unknown, although his height be taken.",
+    "Love's not Time's fool, though rosy lips and cheeks",
+    "Within his bending sickle's compass come;",
+    "Love alters not with his brief hours and weeks,",
+    "But bears it out even to the edge of doom.",
+    "If this be error and upon me proved,",
+    "I never writ, nor no man ever loved."]
+with open("sonnet116_numbered.txt", "w") as file:
+        file.write(f"{i}. {line}\n")
+
+6.4
+from sonnet116.txt import Corpus
+Subfolder = 'Corpus'
+
+nr_characters = len(content)
+
+csv_filename = 'character_names_counts.csv'
+with open(csv_filename, 'w', newline="", encoding="utf-8") as csvfile:
+    field_names = ['text', 'nr_characters']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(file_data)
+
+    print(f"CSV file '{csv_filename}' created successfully.")
+
+???
