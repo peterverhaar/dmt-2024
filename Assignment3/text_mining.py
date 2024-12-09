@@ -161,5 +161,53 @@ upenn_code = { "CC":"conjunction, coordinating",
 
 
 
+def calculate_word_frequencies(corpus):
+
+    freq = Counter()
+    for text in corpus:
+        full_text = ''
+        file_handler = open(text,encoding='utf-8')
+        full_text = file_handler.read()
+        words = word_tokenize(full_text)
+        words = clean_wordlist(words)
+        freq.update(words)
+
+    return freq
+
+        
+
+def sorted_by_value( dict , ascending = True ):
+    if ascending: 
+        return {k: v for k, v in sorted(dict.items(), key=lambda item: item[1])}
+    else:
+        return {k: v for k, v in reversed( sorted(dict.items(), key=lambda item: item[1]))}
+
+
+
+def log_likelihood( word_count1, word_count2, total1, total2 ):
+
+    a = word_count1
+    b = word_count2
+    c = total1
+    d = total2
+ 
+    perc1 = (a/c)*100
+    perc2 = (b/d)*100
+    polarity = perc1 - perc2
+ 
+    E1 = c*(a+b)/(c+d)
+    E2 = d*(a+b)/(c+d)
+    
+    ln1 = math.log(a/E1)
+    ln2 = math.log(b/E2)
+    G2 = 2*((a* ln1) + (b* ln2))
+    
+    #if polarity < 0:
+    #    G2 = -G2
+    if a * math.log(a / E1) < 0:
+        G2 = -G2
+
+    return G2
+
 
 
