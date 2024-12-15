@@ -36,13 +36,11 @@
 
 4.	Open the notebook named "Assignment3.ipynb" in a Code editor or in Jupyter Notebook, edit the value of the variable ‘my_text’. You need to replace the URL that is given with the URL leading to the “raw” version of your own text, which you found under step 2. Next, save the notebook. 
 
-5.	Open Google Colab via [https://colab.research.google.com/](https://colab.research.google.com/)
+5.	Start Jupyter Notebook or Jupyter Lab and open the edited notebook. 
 
-6.	Click on "File" > "Upload Notebook" and upload the notebook you have edited in step 4. 
+7.	Click on "Run" > "Run All Cells".
 
-7.	Click on "Runtime" > "Run All"
-
-8.	If the notebook produces error messages, choose "Runtime" > "Restart session and run all"
+8.	If the notebook produces error messages, choose "Runtime" > "Restart kernal and run all cells".
  
  
  
